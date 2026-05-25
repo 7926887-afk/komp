@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c6ad3e1e-e066-4113-b21f-200aca2b526b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПричиныОтменыЗаказовПоставщикам" category="Object">
+				<xr:TypeId>ff3407e0-d153-404e-a747-0acadfc5fba9</xr:TypeId>
+				<xr:ValueId>60d2dde9-e296-431f-ac56-b0f7f21fad4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПричиныОтменыЗаказовПоставщикам" category="Ref">
+				<xr:TypeId>9ac7b297-3ede-4c69-bcc5-630d2d9070ae</xr:TypeId>
+				<xr:ValueId>cabaa3c3-4840-48ea-a02e-16b11eac98f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПричиныОтменыЗаказовПоставщикам" category="Selection">
+				<xr:TypeId>08aa656d-961f-46e2-8417-2618e600ad06</xr:TypeId>
+				<xr:ValueId>fadb8e2c-b79f-4c96-96fb-a2c552730198</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПричиныОтменыЗаказовПоставщикам" category="List">
+				<xr:TypeId>db62a7e5-7b1c-42d7-9957-c139665048da</xr:TypeId>
+				<xr:ValueId>7b6ea7d1-07c7-4739-97b7-b0824cf72237</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПричиныОтменыЗаказовПоставщикам" category="Manager">
+				<xr:TypeId>1ec200e4-aed5-4b8e-a2ba-d53b70d6d0de</xr:TypeId>
+				<xr:ValueId>ddb18610-f20f-4025-aa2c-75f05e84cece</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПричиныОтменыЗаказовПоставщикам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f80ad83e-fdd7-4c6f-8276-cf276c393e34</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

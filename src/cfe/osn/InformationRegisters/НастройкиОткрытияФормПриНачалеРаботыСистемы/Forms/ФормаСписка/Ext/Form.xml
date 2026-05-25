@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Настройки открытия форм при начале работы программы</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаИзменитьНастройку" id="14">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ФормаИзменитьНастройкуExtendedTooltip" id="15"/>
+			</Button>
+			<Button name="ФормаУстановитьОтображениеВсех" id="31">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаУстановитьОтображениеВсехРасширеннаяПодсказка" id="32"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Table name="НастройкиФорм" id="1">
+			<Representation>List</Representation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<SelectionMode>SingleRow</SelectionMode>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки форм</v8:content>
+				</v8:item>
+			</Title>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НастройкиФормКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="НастройкиФормКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="НастройкиФормExtendedTooltip" id="16"/>
+			<SearchStringAddition name="НастройкиФормСтрокаПоиска" id="22">
+				<AdditionSource>
+					<Item>НастройкиФорм</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НастройкиФормСтрокаПоискаКонтекстноеМеню" id="23"/>
+				<ExtendedTooltip name="НастройкиФормСтрокаПоискаРасширеннаяПодсказка" id="24"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НастройкиФормСостояниеПросмотра" id="25">
+				<AdditionSource>
+					<Item>НастройкиФорм</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<HorizontalLocation>Left</HorizontalLocation>
+				<ContextMenu name="НастройкиФормСостояниеПросмотраКонтекстноеМеню" id="26"/>
+				<ExtendedTooltip name="НастройкиФормСостояниеПросмотраРасширеннаяПодсказка" id="27"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НастройкиФормУправлениеПоиском" id="28">
+				<AdditionSource>
+					<Item>НастройкиФорм</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НастройкиФормУправлениеПоискомКонтекстноеМеню" id="29"/>
+				<ExtendedTooltip name="НастройкиФормУправлениеПоискомРасширеннаяПодсказка" id="30"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="НастройкиФормПользователь" id="4">
+					<ReadOnly>true</ReadOnly>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь, для которого существует пользователь информационной базы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НастройкиФормПользовательКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НастройкиФормПользовательExtendedTooltip" id="17"/>
+				</InputField>
+				<InputField name="НастройкиФормФорма" id="6">
+					<ReadOnly>true</ReadOnly>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Одна из возможных форм рабочего места пользователя</v8:content>
+						</v8:item>
+					</ToolTip>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НастройкиФормФормаКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="НастройкиФормФормаExtendedTooltip" id="18"/>
+				</InputField>
+				<CheckBoxField name="НастройкиФормОткрыватьПоУмолчанию" id="8">
+					<ReadOnly>true</ReadOnly>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Открывать форму по умолчанию</v8:content>
+						</v8:item>
+					</ToolTip>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="НастройкиФормОткрыватьПоУмолчаниюКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="НастройкиФормОткрыватьПоУмолчаниюExtendedTooltip" id="19"/>
+				</CheckBoxField>
+				<InputField name="НастройкиФормПараметрЗапуска" id="10">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НастройкиФормПараметрЗапускаКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="НастройкиФормПараметрЗапускаExtendedTooltip" id="20"/>
+				</InputField>
+				<InputField name="НастройкиФормНастройкиФормы" id="12">
+					<ReadOnly>true</ReadOnly>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация об открытии формы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НастройкиФормНастройкиФормыКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="НастройкиФормНастройкиФормыExtendedTooltip" id="21"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.20">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Настройки открытия форм при начале работы программы</v8:content>
+			</v8:item>
+		</Title>
+		<AutoTitle>false</AutoTitle>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаИзменитьНастройку" id="14">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаИзменитьНастройкуРасширеннаяПодсказка" id="15"/>
+				</Button>
+				<Button name="ФормаУстановитьОтображениеВсех" id="31">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаУстановитьОтображениеВсехРасширеннаяПодсказка" id="32"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<Table name="НастройкиФорм" id="1">
+				<Representation>List</Representation>
+				<ChangeRowSet>false</ChangeRowSet>
+				<ChangeRowOrder>false</ChangeRowOrder>
+				<SelectionMode>SingleRow</SelectionMode>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Настройки форм</v8:content>
+					</v8:item>
+				</Title>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="НастройкиФормКонтекстноеМеню" id="2"/>
+				<AutoCommandBar name="НастройкиФормКоманднаяПанель" id="3">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="НастройкиФормРасширеннаяПодсказка" id="16"/>
+				<SearchStringAddition name="НастройкиФормСтрокаПоиска" id="22">
+					<AdditionSource>
+						<Item>НастройкиФорм</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="НастройкиФормСтрокаПоискаКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="НастройкиФормСтрокаПоискаРасширеннаяПодсказка" id="24"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="НастройкиФормСостояниеПросмотра" id="25">
+					<AdditionSource>
+						<Item>НастройкиФорм</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<HorizontalLocation>Left</HorizontalLocation>
+					<ContextMenu name="НастройкиФормСостояниеПросмотраКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="НастройкиФормСостояниеПросмотраРасширеннаяПодсказка" id="27"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="НастройкиФормУправлениеПоиском" id="28">
+					<AdditionSource>
+						<Item>НастройкиФорм</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="НастройкиФормУправлениеПоискомКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="НастройкиФормУправлениеПоискомРасширеннаяПодсказка" id="30"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<InputField name="НастройкиФормПользователь" id="4">
+						<ReadOnly>true</ReadOnly>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пользователь, для которого существует пользователь информационной базы</v8:content>
+							</v8:item>
+						</ToolTip>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НастройкиФормПользовательКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="НастройкиФормПользовательРасширеннаяПодсказка" id="17"/>
+					</InputField>
+					<InputField name="НастройкиФормФорма" id="6">
+						<ReadOnly>true</ReadOnly>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Одна из возможных форм рабочего места пользователя</v8:content>
+							</v8:item>
+						</ToolTip>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НастройкиФормФормаКонтекстноеМеню" id="7"/>
+						<ExtendedTooltip name="НастройкиФормФормаРасширеннаяПодсказка" id="18"/>
+					</InputField>
+					<CheckBoxField name="НастройкиФормОткрыватьПоУмолчанию" id="8">
+						<ReadOnly>true</ReadOnly>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Открывать форму по умолчанию</v8:content>
+							</v8:item>
+						</ToolTip>
+						<EditMode>EnterOnInput</EditMode>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="НастройкиФормОткрыватьПоУмолчаниюКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="НастройкиФормОткрыватьПоУмолчаниюРасширеннаяПодсказка" id="19"/>
+					</CheckBoxField>
+					<InputField name="НастройкиФормПараметрЗапуска" id="10">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НастройкиФормПараметрЗапускаКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="НастройкиФормПараметрЗапускаРасширеннаяПодсказка" id="20"/>
+					</InputField>
+					<InputField name="НастройкиФормНастройкиФормы" id="12">
+						<ReadOnly>true</ReadOnly>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дополнительная информация об открытии формы</v8:content>
+							</v8:item>
+						</ToolTip>
+						<EditMode>EnterOnInput</EditMode>
+						<ContextMenu name="НастройкиФормНастройкиФормыКонтекстноеМеню" id="13"/>
+						<ExtendedTooltip name="НастройкиФормНастройкиФормыРасширеннаяПодсказка" id="21"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

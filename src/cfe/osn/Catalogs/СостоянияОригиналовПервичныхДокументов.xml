@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="5652785a-8f01-4ffa-bda1-b8086266682f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СостоянияОригиналовПервичныхДокументов" category="Object">
+				<xr:TypeId>221a8959-8a74-4308-ac11-ddb362328bf0</xr:TypeId>
+				<xr:ValueId>122e909c-5f36-4b0e-93bd-728436aa6195</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СостоянияОригиналовПервичныхДокументов" category="Ref">
+				<xr:TypeId>03a1d2b7-a962-4250-a91f-b34f75ba1daf</xr:TypeId>
+				<xr:ValueId>c881cb2a-9223-4613-bebc-7bc21a3eb653</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СостоянияОригиналовПервичныхДокументов" category="Selection">
+				<xr:TypeId>eabecbb5-feaa-40d4-9f24-03162f174832</xr:TypeId>
+				<xr:ValueId>6dfe5d1b-48c1-469c-9072-f86f5f77f06b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СостоянияОригиналовПервичныхДокументов" category="List">
+				<xr:TypeId>d07fc869-ac11-40ce-95f8-f22d62e6ca65</xr:TypeId>
+				<xr:ValueId>59f04c7d-111c-4424-9752-aeeca36b4b03</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СостоянияОригиналовПервичныхДокументов" category="Manager">
+				<xr:TypeId>29c97410-0da7-407f-a9e4-f3cc6d749d6a</xr:TypeId>
+				<xr:ValueId>2acd8ad9-aeac-4460-9886-e5195f6905ed</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияОригиналовПервичныхДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8b5358e9-5810-45a7-a49e-fe7fe63c73f3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

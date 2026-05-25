@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="79d9d3ca-88ef-4910-9e11-d2babe9187b7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктВыполненныхРабот" category="Object">
+				<xr:TypeId>f0fcc67f-818a-453f-9f93-e36778657915</xr:TypeId>
+				<xr:ValueId>075e5980-83e3-4f8d-84ac-2e0a953fa7e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктВыполненныхРабот" category="Ref">
+				<xr:TypeId>e6642da0-e829-40bc-b74a-d6f77e2215d0</xr:TypeId>
+				<xr:ValueId>454ce068-2755-4d4c-a283-c452180975ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктВыполненныхРабот" category="Selection">
+				<xr:TypeId>e965629e-01f0-4d96-b9bf-fb38cced9d44</xr:TypeId>
+				<xr:ValueId>f043d6d7-756c-4d43-8508-b968863bd1d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктВыполненныхРабот" category="List">
+				<xr:TypeId>8fffbbc6-d329-4044-96c5-765c66cf5d87</xr:TypeId>
+				<xr:ValueId>7690d4fc-2039-49cd-a5cb-97b0e2961a95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктВыполненныхРабот" category="Manager">
+				<xr:TypeId>5a53e9d3-cd09-47de-b10c-16086cde91d3</xr:TypeId>
+				<xr:ValueId>f598ad14-629a-4139-be71-10fb6ed81b28</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АктВыполненныхРабот</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d2275b5d-ab87-483e-b252-2de5d94fc643</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d4192c70-3668-4ea7-9b52-1d0b8d6e170f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказКлиента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f6fff40a-9eb3-48a4-9315-d7d344822d1e</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="f67a159f-54cb-4a48-993f-1ec2785c0067">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктВыполненныхРабот.Услуги" category="TabularSection">
+						<xr:TypeId>5f0a0e42-1d91-4316-8459-152d3cb2a391</xr:TypeId>
+						<xr:ValueId>2e0d33cc-5688-462e-bbfa-8d71d4423692</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктВыполненныхРабот.Услуги" category="TabularSectionRow">
+						<xr:TypeId>df4d9fcb-f82d-402b-a671-3d55da18248d</xr:TypeId>
+						<xr:ValueId>12c7799d-afd2-40d0-94b4-1a0332950eb1</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Услуги</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>384081c8-6346-45c3-940a-7e0deebba07d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="fb7056b2-4459-4628-b191-0d8ad44a9f1b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a1caf232-2691-4775-b844-f1e6767b45cd</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6862240a-21fc-4cbb-a1fc-571ccba13be6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗаказКлиента</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>5c8ec2d7-20d0-48c4-8230-5de9b798846a</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="35c90375-ec03-4830-957a-023dd7c4aa4c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктВыполненныхРабот.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>a4095c1d-c192-4aef-aa57-ac760cb5ba44</xr:TypeId>
+						<xr:ValueId>32e03b2a-5646-4002-af65-a99bd2698429</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктВыполненныхРабот.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>2f236455-c7e0-45f7-93e4-564cb20027d9</xr:TypeId>
+						<xr:ValueId>ff579a09-4f9d-4101-805a-a29d06420202</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c4ec43ac-9064-4733-b80a-3da57ddcf3c9</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

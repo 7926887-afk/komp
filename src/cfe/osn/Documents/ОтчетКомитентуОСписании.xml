@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="22801cca-1985-4a70-8374-082116599fbb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетКомитентуОСписании" category="Object">
+				<xr:TypeId>5443c101-3d35-4cce-bca3-70ec3721e1a7</xr:TypeId>
+				<xr:ValueId>52e73e76-c7aa-4498-b47f-d4607144f7ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетКомитентуОСписании" category="Ref">
+				<xr:TypeId>9f3ac131-d9e4-4d46-9bb4-dd10b3d92144</xr:TypeId>
+				<xr:ValueId>d1540090-7a00-46c6-8f89-9a6b0109625a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетКомитентуОСписании" category="Selection">
+				<xr:TypeId>eaff1bf8-eb30-4421-a3d2-fa86bbbe2795</xr:TypeId>
+				<xr:ValueId>26fade98-c47a-464d-914c-229c4585e8a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетКомитентуОСписании" category="List">
+				<xr:TypeId>7f4c7b6c-8bb6-4d8b-b4ed-90c93cd80ca1</xr:TypeId>
+				<xr:ValueId>03a04321-6f94-4868-94b7-68ffc6e4bbe0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетКомитентуОСписании" category="Manager">
+				<xr:TypeId>598fb572-b754-431c-b048-f0fe5650712a</xr:TypeId>
+				<xr:ValueId>167b9a9a-3156-4f62-bfda-c1d3da8cdaaf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетКомитентуОСписании</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>feefe80c-5271-482d-8533-ce65827a0638</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="c032b7b7-fe0e-4379-9cd4-dba6f71ea0e2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетКомитентуОСписании.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>b0c8c81c-b084-4d5b-a589-315f212509f3</xr:TypeId>
+						<xr:ValueId>f07952aa-2ebd-42ac-b891-08107b2d0d44</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетКомитентуОСписании.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>3eb5c609-9b8e-45c9-93e7-693e17642b14</xr:TypeId>
+						<xr:ValueId>e064e524-3443-4f84-b00f-da44ece66162</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>11f5636b-bca0-4155-a3c0-e423e6e9ca09</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

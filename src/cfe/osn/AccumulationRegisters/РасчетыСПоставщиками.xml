@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="e0787345-1c8a-42e0-8f99-4086f54750b8">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.РасчетыСПоставщиками" category="Record">
+				<xr:TypeId>63934785-04a2-4f53-a1ba-6d65393fcf64</xr:TypeId>
+				<xr:ValueId>a22f245b-3cf5-429e-8aff-6967df2500a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.РасчетыСПоставщиками" category="Manager">
+				<xr:TypeId>a9eedd39-7915-47bb-8202-4839ed816cad</xr:TypeId>
+				<xr:ValueId>525ff7c9-30ed-4eb0-8810-60d6f2ec744e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.РасчетыСПоставщиками" category="Selection">
+				<xr:TypeId>93c74be8-4b15-41b8-90ce-fbea39157497</xr:TypeId>
+				<xr:ValueId>456de259-0732-476e-80a5-08f120adbd6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.РасчетыСПоставщиками" category="List">
+				<xr:TypeId>c043b5c7-d55a-4d2e-8dc9-bb714f9f261d</xr:TypeId>
+				<xr:ValueId>1ae4124c-1044-4b29-8e2b-5a4bd47cc7c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.РасчетыСПоставщиками" category="RecordSet">
+				<xr:TypeId>ff395d17-8669-4963-8621-491ffd39ec77</xr:TypeId>
+				<xr:ValueId>92d77cb0-09b3-4bb9-9fcc-6ea563ff9ab8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.РасчетыСПоставщиками" category="RecordKey">
+				<xr:TypeId>6339dad8-84fa-4ec7-a9e3-0256b7377231</xr:TypeId>
+				<xr:ValueId>d2498c63-e241-4e3a-ae6a-536b7cabd1be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасчетыСПоставщиками</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>892a584c-ca0d-40de-93bd-eeb181e31fae</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="7123a585-b1f9-4396-a2da-f6b72c875bee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КОплате</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c315faa9-a989-48c0-b37d-28bd7abc88c5</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="66c93f04-d9bf-4925-9343-8bf270a21d38">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>38689c6e-d81d-4827-bd6a-697a38792d6a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="2c2d6a8f-43eb-420b-a186-d0da4f117857">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bd020d20-c3a2-4938-ae11-3b5fcca0f0a9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

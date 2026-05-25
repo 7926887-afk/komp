@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DocumentJournal uuid="058de758-0b0d-4497-b15c-62b62dc964c2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.СкладскиеОрдера" category="Selection">
+				<xr:TypeId>f8dc2c8c-d729-4159-9831-4c8b279ae11b</xr:TypeId>
+				<xr:ValueId>ddd7fa8b-f764-4a39-a1d6-caf7283aa622</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.СкладскиеОрдера" category="List">
+				<xr:TypeId>8e7aa26c-ce2a-49b8-b435-7749ef3259be</xr:TypeId>
+				<xr:ValueId>06b92ebe-618b-44f2-9728-e5b9ccd97b2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.СкладскиеОрдера" category="Manager">
+				<xr:TypeId>6c723933-8567-4ae3-bfa9-c314df9c4281</xr:TypeId>
+				<xr:ValueId>bad28a30-ed26-4428-b3e8-1fa05d1b2dc0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СкладскиеОрдера</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4740ae5d-b3d7-4432-9f4f-90cbcdf4b446</ExtendedConfigurationObject>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходныйОрдерНаТовары</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходныйОрдерНаТовары</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="cbe1f9e8-094d-4ea9-b9c4-853c432b2961">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Статус</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e7c05ced-f401-4195-85da-6ee93fdc30d3</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="aef163f9-9611-4179-9486-ec480a26a281">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПомещениеОтправитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>202ef6d8-0ce5-43c9-a806-ba4c3079aefa</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="30e1834f-56bb-4c2d-bb51-b4d39169c9f6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Приоритет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>48666997-3382-48d7-8aef-c282ae715f41</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="d44f9f6d-7101-494d-baec-774917478b57">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОтгрузки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>708fb4aa-df52-43b6-a2fa-0edf4aba5419</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="b27f84c8-7fa4-4c09-a753-3e8e883dd219">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаданиеНаПеревозку</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3db2faef-481d-4e47-85d8-ffc54f2fb36d</ExtendedConfigurationObject>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.РасходныйОрдерНаТовары.Attribute.ЗаданиеНаПеревозку</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="84805950-ed1f-4fee-ac22-8843dc382386">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтгрузкаПоЗаданиюНаПеревозку</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c4930b14-20fe-4a62-a811-0b3642a8a16d</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="fd3998a3-e976-44a6-8671-4fd15487fb3f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1855b849-2319-4051-84f7-00151b08dc83</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="ea1b88c7-1765-4a69-b3c1-5a54d6f1f92e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПорядокДоставки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3ef4949f-07f5-46c8-9ea5-870e991abab2</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="7caa21f9-0bdc-4e3e-bd51-c6e2ab783a81">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПолучательОтправитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eab1d3df-8d2b-4c20-81d9-dde5d864571a</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="714523fc-b1ad-44a9-bbf2-0d2c62ca5a37">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>76cc8e0c-2feb-4aa4-9c19-74bbdf2c7de2</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

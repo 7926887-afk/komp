@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9f536464-8471-4fb3-956e-bdaa8dd63c6f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.МаркировкаТоваровГИСМ" category="Object">
+				<xr:TypeId>80d082c0-753d-40d5-9325-63d1d5356e50</xr:TypeId>
+				<xr:ValueId>b52b8284-55b8-42cd-b77c-40d7d4173466</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.МаркировкаТоваровГИСМ" category="Ref">
+				<xr:TypeId>278c6bf8-a421-4ee9-a934-6e28259598c2</xr:TypeId>
+				<xr:ValueId>57058728-b102-43f3-89e8-a87a6c15fc12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.МаркировкаТоваровГИСМ" category="Selection">
+				<xr:TypeId>7078fdb1-f56b-409d-8547-bbb5bcf54e06</xr:TypeId>
+				<xr:ValueId>d5a1db92-d127-4c5c-9ad5-37a5ccab2bc8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.МаркировкаТоваровГИСМ" category="List">
+				<xr:TypeId>9b0988aa-3e2f-4598-8523-6810cb29d151</xr:TypeId>
+				<xr:ValueId>f7bbcc68-fcaf-4fd7-b8d2-0012f148c13c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.МаркировкаТоваровГИСМ" category="Manager">
+				<xr:TypeId>402fc8d9-fd1d-4ccc-9c55-1e7aca6a3a51</xr:TypeId>
+				<xr:ValueId>803153b7-4d2b-43ba-886c-138028f92dfc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>МаркировкаТоваровГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a99b75b4-8e49-4e46-8df8-c58c5aa08d77</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2ea3b568-e5f0-4157-9460-df7f661d7809">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c0e16157-a5f9-437f-a73a-b892826d50af</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеМаркировкиТоваровГИСМ</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="101599be-4802-49fe-9ef2-ee66620fa364">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НазначениеКиЗ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a9bff824-bd69-4b42-b3b6-485fa5329c2c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9fd1090a-aa95-4f13-a394-69a077c8c762">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bd180931-e19a-4cec-9f88-6f7399febd7b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

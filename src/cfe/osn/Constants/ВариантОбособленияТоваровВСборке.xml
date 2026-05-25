@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="bb8df9a4-bed2-457e-b83b-cf840baef375">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ВариантОбособленияТоваровВСборке" category="Manager">
+				<xr:TypeId>6d15f11c-1ade-418e-97bc-e546a3481e70</xr:TypeId>
+				<xr:ValueId>4968e9fd-0f70-4196-a7bc-2491f0225a31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ВариантОбособленияТоваровВСборке" category="ValueManager">
+				<xr:TypeId>79edcb53-8112-494a-a7e2-e799157abb28</xr:TypeId>
+				<xr:ValueId>3e04e73a-8d61-4bf2-93a9-5c01e7951471</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ВариантОбособленияТоваровВСборке" category="ValueKey">
+				<xr:TypeId>c11f98b9-03e5-49ee-9147-894bff95202d</xr:TypeId>
+				<xr:ValueId>0768f36c-1e51-4d6d-abc2-1731528814d0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантОбособленияТоваровВСборке</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1fc58245-2655-436c-9f24-5caf38d5441f</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:EnumRef.ВариантыОбособленияТоваровВСборке</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

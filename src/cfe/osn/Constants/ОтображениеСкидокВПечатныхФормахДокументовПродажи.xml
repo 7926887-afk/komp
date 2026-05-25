@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="c65837f0-6ab5-4fb7-9dcc-52c9d73d839c">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ОтображениеСкидокВПечатныхФормахДокументовПродажи" category="Manager">
+				<xr:TypeId>718c4d0c-3e69-4468-bf8d-ee948182ac71</xr:TypeId>
+				<xr:ValueId>53a3a938-8d45-40ba-ba14-8b345308e5e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ОтображениеСкидокВПечатныхФормахДокументовПродажи" category="ValueManager">
+				<xr:TypeId>8ce598f8-e86f-4c12-89bc-17639a7d87a5</xr:TypeId>
+				<xr:ValueId>dfa6e9ee-1d01-4b24-b1c4-35e438b2e7e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ОтображениеСкидокВПечатныхФормахДокументовПродажи" category="ValueKey">
+				<xr:TypeId>6ff9dc93-b219-48d3-a220-4e45efd72ba6</xr:TypeId>
+				<xr:ValueId>0b828c3b-d8db-44b6-a740-b1802e589fdd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтображениеСкидокВПечатныхФормахДокументовПродажи</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0a8918a9-e132-4a5f-ac1d-9d41c567637c</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:EnumRef.ВариантыВыводаСкидокВПечатныхФормах</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

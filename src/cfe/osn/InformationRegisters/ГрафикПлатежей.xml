@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="6fcec427-acd1-442d-8c64-584a5fdd4314">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ГрафикПлатежей" category="Record">
+				<xr:TypeId>8adb7248-9c12-4c1f-aa75-fe72e78b2ef3</xr:TypeId>
+				<xr:ValueId>7dee3103-be00-4e8c-98d6-d3c5be349495</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ГрафикПлатежей" category="Manager">
+				<xr:TypeId>913a7a32-4257-45b1-8d63-89d025ef5ad3</xr:TypeId>
+				<xr:ValueId>225139cb-34bd-4209-8c7b-a1e3b2710fb4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ГрафикПлатежей" category="Selection">
+				<xr:TypeId>10802243-cf15-4154-85dd-49d780f44b50</xr:TypeId>
+				<xr:ValueId>e21e0896-b458-49c6-a89a-6ddb53363dc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ГрафикПлатежей" category="List">
+				<xr:TypeId>a857f950-1d08-4b49-8c23-b3313f3a444b</xr:TypeId>
+				<xr:ValueId>b6267dc0-cd9e-4773-9c38-6c4207e63d35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ГрафикПлатежей" category="RecordSet">
+				<xr:TypeId>097d4405-a376-46da-b88f-7e808fd2cf87</xr:TypeId>
+				<xr:ValueId>9dbe3383-a5e1-4b44-b5f0-210bf98c73dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ГрафикПлатежей" category="RecordKey">
+				<xr:TypeId>351986ef-3fe3-42fd-ba4c-dc6b5e1bd1f6</xr:TypeId>
+				<xr:ValueId>4bc12174-034f-4e1a-a7e7-43bd8ba3b59e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ГрафикПлатежей" category="RecordManager">
+				<xr:TypeId>7e10db0f-92e8-4a69-837b-f18d310d909e</xr:TypeId>
+				<xr:ValueId>148156d2-8969-4468-953f-8ce1c08355a4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГрафикПлатежей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a63d239c-2646-4ee8-8171-17bbb2a8ccda</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0e258b99-d196-4cad-8280-709e585a9829">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4544fb13-fe34-40a7-b14b-a6d4b1543d7c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="3e75028f-9ea7-45b0-9d18-6f81d07729e4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатьяДвиженияДенежныхСредств</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>62ab0121-3555-423e-a1c8-02eee16486d3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиДвиженияДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a2bb033e-dd12-44b8-86db-ee0be6c36c4c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>093e00f5-be3f-4144-9df0-54948fbcbac8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5bb7dd21-a14f-4ecb-9319-be1862f3bb5b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбластьПланирования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>73722c40-feaa-469b-9edf-3134e922d2de</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ОбластиПланированияПлатежей</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="566ff561-ade1-4544-915c-078af947037a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9cda8e91-3493-409c-892d-65862305aad4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="91c2db6f-50b0-46b2-931c-755f9049d05e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаправлениеДеятельности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c4910a44-61b8-46af-8bc4-d9f455439b77</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3e2dcd96-8346-45b2-a9ef-b2bf1b69682f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Приоритет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ed2bcd5b-fe1c-4a4c-a989-bddac88289a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПриоритетыОплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c2ea65e2-51d5-4208-8538-e522d8356d43">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ae65a489-a600-4083-b131-32f0e77756b3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="536b4bc9-1d00-4d50-a94e-116b0effeb79">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипОбъектаОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7818f052-d98e-4b82-bfce-f0ccb7044f88</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="50ca1a94-adeb-4900-b23f-b9b4d2bd7e57">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c0023d2a-cee4-4602-a14c-98c65fdc1da2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="980c451b-9693-413d-bce6-a25ae0778d01">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Дата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>262f3a9c-7570-465c-8162-773dbed3005b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="797c18a8-a8fd-45a8-ae64-d79c22c86fb0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2dbd7e5b-79fb-433a-82c6-5175b9575d7a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7a2893c0-c94c-4583-b16e-e902ab815216">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФормаОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bd3d4c73-00f7-4a63-a999-e75ef6f0e0df</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ФормыОплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="08aecbc0-111e-4eba-b1c5-0137d89c5224">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаАктуальностиГрафика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6f77a76f-5246-4e78-b951-1852398740c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="21570679-2de6-457f-927b-3d02bc265e29">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КорВалюта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2b955caa-f5e3-4ec1-a1b6-d76b68a87b29</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="c303544b-0a06-4862-b68b-fdf8726b6e0d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанковскийСчетКасса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4b691eb8-3200-496a-ac4f-cd690ed725b6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="3012a1b9-df43-413c-be07-2258763c1e3d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>14b23be5-ae3a-460d-a907-3615bb7b743f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="14c60a9d-0611-48fd-822b-88b82de7e7de">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПлательщикПолучатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af765ed0-68b2-4d44-b6ac-a06dc78d7ef0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="a928ca24-7e0b-4032-869e-b84ceed97a69">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>502f4692-adbb-4f6f-b61e-9c0905445a7c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b91147a7-4efe-4b39-850e-e91306cfa7d4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипСуммы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3658772c-d509-4ce5-b115-6a23b0486e8a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="eace516b-8788-45db-90a0-d5bf35137b61">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоступлениеСписание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0356b647-9edb-40f3-8877-b55b3e423ab2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыДвиженияДенежныхСредств</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="44b00bab-94fd-4439-a941-62ffbb7ac4ee">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Валюта</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>54d12f20-3681-4054-8441-5e6edd2cb9fb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="3b83f9f1-70f1-4956-8c3b-96a5f7de05ba">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2eb8df56-f7da-43bd-ba4c-15006cbb7805</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОбъектОплаты</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="4f4eab04-0755-40d8-93f8-e91af79b8b96">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияЗаказовКлиентов" category="Ref">
+				<xr:TypeId>f42bb3f0-8dfb-47e2-af6c-0758857d32e0</xr:TypeId>
+				<xr:ValueId>e782f052-0660-416d-9027-8c6220d241cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияЗаказовКлиентов" category="Manager">
+				<xr:TypeId>903fc943-200a-4a74-8a09-cf5e60811e2d</xr:TypeId>
+				<xr:ValueId>4dc05e6b-3995-4d16-a8bb-3de683b8e89c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияЗаказовКлиентов" category="List">
+				<xr:TypeId>f0e263d1-a5f0-4a8f-807c-c92530ea7680</xr:TypeId>
+				<xr:ValueId>7b51fca9-81de-4bde-9c7d-7bd3b0054d76</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияЗаказовКлиентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ea8c9475-156a-4793-8dfe-10617b50f0de</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="6b79336e-f0f4-428b-ae96-b46a12fc7c4e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжидаетсяСогласование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f84d378-014f-46e5-9669-117f8699ea6a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4bf7570f-2d1d-4817-8e60-fb7896a2b347">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжидаетсяОбеспечение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9d7a3d9a-f289-469a-a229-14a8595ec642</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8565692a-2793-47c9-83fc-296656f537f3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Закрыт</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>99d7c9c4-55a0-41ff-9ae0-bc17f9225371</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3d24d354-72fb-40c7-8f96-968fb6e187d6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГотовКОбеспечению</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a72ecdb2-2cc3-45ed-a281-091e5fc11df3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="09d89246-c95f-430a-8435-d9715b32b670">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГотовКОтгрузке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3593ef02-b143-40a5-84ac-6800414ce3c8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

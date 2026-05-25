@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="800cd772-7bb4-4496-8311-d8b813b625b4">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияЗаказовКлиентов" category="Record">
+				<xr:TypeId>e6da22d3-5870-4d91-9aac-54c6923cede6</xr:TypeId>
+				<xr:ValueId>0caa00f9-8600-4678-8440-e177113ecdc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияЗаказовКлиентов" category="Manager">
+				<xr:TypeId>17238f19-4012-4ea3-ac36-cfa9a965372c</xr:TypeId>
+				<xr:ValueId>bf1bb148-f276-469b-b1be-277faf488aff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияЗаказовКлиентов" category="Selection">
+				<xr:TypeId>671f9899-4c23-47b5-a333-3b067820c9de</xr:TypeId>
+				<xr:ValueId>cd0adc9c-9a17-4677-97f2-97018cb74b7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияЗаказовКлиентов" category="List">
+				<xr:TypeId>351324a2-7183-42bd-ac8d-90a0bd068b9f</xr:TypeId>
+				<xr:ValueId>a13a5d73-b2e1-4902-842b-bc4ae6bc4a79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияЗаказовКлиентов" category="RecordSet">
+				<xr:TypeId>68fa8ad1-694c-4f69-bd0f-af665888e404</xr:TypeId>
+				<xr:ValueId>3615e48d-691a-4e53-9c02-78d942a7bfcd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияЗаказовКлиентов" category="RecordKey">
+				<xr:TypeId>27fd7dce-ab9a-4325-9270-a4860dbc64d4</xr:TypeId>
+				<xr:ValueId>3b34181e-30b2-441f-91c1-f285a474ba20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияЗаказовКлиентов" category="RecordManager">
+				<xr:TypeId>c9f284a2-8fac-4af7-9307-9d4985199626</xr:TypeId>
+				<xr:ValueId>b642a5aa-0b81-459f-aaae-16cbe97af710</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияЗаказовКлиентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bc51e744-f22b-4a4d-9db1-4032f96cd184</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="495ed4cb-2a29-4714-963b-ac23e9438554">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3b7c75dc-9f63-4ed2-aaa6-9baa9da4c61f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="46dcf26f-6dd7-483d-8868-4231e436e277">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСобытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>63aa379a-2fd5-4859-b950-0743407a2f0c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="c2bc6cd2-9ef3-478e-ab23-1ce0c939ed3e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bd2be026-965b-41c0-8b56-93a2bb5afbef</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="198d7a6f-826e-4fbd-81c9-f0b823d647a0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроцентОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c604faef-7462-4a83-8144-3ef6c1bce4bd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4a4eb385-8eba-4a6d-907e-42dc669ab973">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаОтгрузки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>230b39a5-62c8-4498-bace-5e0a66ded39c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ea779d57-52a7-469e-849e-d45900cdd39b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроцентОтгрузки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7cb49e74-a821-4467-b425-a76c08ce8cfb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2eb3ae7d-9a02-4319-9ba5-4ad4e89e701e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДолга</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>06fc4d96-5fd4-4645-a624-fde2fbcb96c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаЛюбогоЗнака</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fb78366b-cc20-4538-8b07-0632bf09ebe1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроцентДолга</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6f24a5f0-5952-4d29-9631-f790ff3b91af</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4a592d30-4a31-4b50-9c6a-53434f2b6f4d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕстьРасхожденияОрдерНакладная</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e93dc839-5709-4632-af99-0c84fa77f9a6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="b64681b9-f674-49b5-aa0f-2aa1260d5074">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заказ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>908232c3-529c-4c04-9bdd-98d3cf6d8483</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

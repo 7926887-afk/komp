@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="0eaa367d-e53c-406f-8b59-178ff9bbff4f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыДоверенностей" category="Ref">
+				<xr:TypeId>a833b720-fe22-4541-84aa-155331a0a355</xr:TypeId>
+				<xr:ValueId>3db3de62-7d2f-4e68-a596-c969a7c393b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыДоверенностей" category="Manager">
+				<xr:TypeId>9adf9e54-975f-4ce1-9c16-85ecc841f576</xr:TypeId>
+				<xr:ValueId>6dbaf356-659e-44f4-a15f-c5c3de696a42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыДоверенностей" category="List">
+				<xr:TypeId>110d2174-d892-4f75-9819-1e4d918c18d4</xr:TypeId>
+				<xr:ValueId>561ce98b-33f9-4c4e-9cca-f3e4b75f4128</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыДоверенностей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a5c13e11-94ac-4827-907d-7b0fc8b6f32c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d4b5085a-bfc6-4669-852c-245d81ca9167">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеВыдана</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5931bb1a-1c53-4ebd-ace1-813ecf62d479</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fdb0b3b3-5a68-4176-a77e-34e5a38db6f2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выдана</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d2eb46c4-0851-44f9-914c-5c59e358349e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

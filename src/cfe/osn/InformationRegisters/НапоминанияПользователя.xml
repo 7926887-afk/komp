@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="4a9214f7-bde2-44f6-88b7-40337996fe6d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НапоминанияПользователя" category="Record">
+				<xr:TypeId>e5649b2c-8ac8-4136-a409-41e5f5a53213</xr:TypeId>
+				<xr:ValueId>69a890a5-d4a4-4a17-ae86-722c4bc9944d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НапоминанияПользователя" category="Manager">
+				<xr:TypeId>9eb0e1c9-558e-4bc4-b100-dc8ba2814c08</xr:TypeId>
+				<xr:ValueId>5ffd74c7-b722-42eb-80fb-56545f3cdb7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НапоминанияПользователя" category="Selection">
+				<xr:TypeId>8f8512c2-e4d5-42f8-a9bc-dd07a1273396</xr:TypeId>
+				<xr:ValueId>b9202d4b-9c93-44ca-af80-a241ea08e686</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НапоминанияПользователя" category="List">
+				<xr:TypeId>f6a9db31-4938-4ce1-81b8-781d6bf2628b</xr:TypeId>
+				<xr:ValueId>515f1617-bc3c-4862-8409-9f132b66d87d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НапоминанияПользователя" category="RecordSet">
+				<xr:TypeId>55fa4903-ed05-44b9-a65b-5ed876700919</xr:TypeId>
+				<xr:ValueId>2f5f7bc2-d70e-44b4-bf11-f510c2f7b075</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НапоминанияПользователя" category="RecordKey">
+				<xr:TypeId>78373412-5b69-45de-8f18-947efa7be167</xr:TypeId>
+				<xr:ValueId>ee20a2d5-2b30-4dc2-88a4-aaf081b8f971</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НапоминанияПользователя" category="RecordManager">
+				<xr:TypeId>66520fc0-8338-4212-956c-3abd8734eb49</xr:TypeId>
+				<xr:ValueId>c752b5fb-f6cb-4819-8e24-880c1696a211</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НапоминанияПользователя</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>94b2e060-53b7-4b40-af05-30bea3520330</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

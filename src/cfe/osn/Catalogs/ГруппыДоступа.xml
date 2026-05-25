@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="216a064c-7972-47bc-a98a-0cdbf1eecc84">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыДоступа" category="Object">
+				<xr:TypeId>7055cdeb-6253-400a-bd6d-f42234b086d0</xr:TypeId>
+				<xr:ValueId>dd80403b-a325-48c0-bfc6-3ead7df5f665</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыДоступа" category="Ref">
+				<xr:TypeId>32f1ff09-71f7-43ac-b2a1-f324213c9eb7</xr:TypeId>
+				<xr:ValueId>dd7cbf0e-cc3e-4362-8b21-cad15d8fc2a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыДоступа" category="Selection">
+				<xr:TypeId>e8ea2478-b4f8-49ce-9e84-a809ed740747</xr:TypeId>
+				<xr:ValueId>4e55e72c-a82b-494a-ad6b-4a0e959d34c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыДоступа" category="List">
+				<xr:TypeId>34b2a232-2dd2-4caa-8d46-b3bc89b16f18</xr:TypeId>
+				<xr:ValueId>5da6d057-74b6-46c8-a1e9-7e237de9ef74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыДоступа" category="Manager">
+				<xr:TypeId>23f64a5d-85e8-4698-8f3d-b80db5fb66e5</xr:TypeId>
+				<xr:ValueId>bde0a287-1da7-4310-9501-f8be459f7af5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГруппыДоступа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d0106f3a-8490-4277-a278-75c318ec252c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e670dff0-dc59-41dd-9cf4-5c4ab8b92b4d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5f93d2af-64ff-41cc-8403-4a0e83160fea</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="49b4eefd-8a0e-48ac-a6d3-04f46b9568a9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Профиль</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5035aa55-d557-419a-89e2-10ed0f8d109b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПрофилиГруппДоступа</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="95faed8b-00be-4313-ba6d-5267437d1d2c">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ГруппыДоступа.Пользователи" category="TabularSection">
+						<xr:TypeId>72381237-9a91-4fcf-9ca8-c4b3203ef5cd</xr:TypeId>
+						<xr:ValueId>1e5c9805-e77b-4b32-9968-c4198650ec3c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ГруппыДоступа.Пользователи" category="TabularSectionRow">
+						<xr:TypeId>1d2bfc68-8b62-4fd4-8de4-3fec46cc417a</xr:TypeId>
+						<xr:ValueId>bfbecb21-8a60-4827-b032-47e8413f6f06</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0132e564-2cd3-4930-8962-1068532f4be4</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="654f3634-da40-464c-9198-b76573214632">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Пользователь</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>57d0f9b0-18d0-48ba-9f3c-d106f66ac602</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="9aac986b-53ec-4873-8bff-d4f6725c59ec">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ГруппыДоступа.ЗначенияДоступа" category="TabularSection">
+						<xr:TypeId>c7456b58-4c91-4ba6-a01a-17dd5124616c</xr:TypeId>
+						<xr:ValueId>bb9de25d-83a8-43c5-b737-572b2ff0329f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ГруппыДоступа.ЗначенияДоступа" category="TabularSectionRow">
+						<xr:TypeId>ae561801-05b4-42eb-be3a-79c249a6749c</xr:TypeId>
+						<xr:ValueId>81eb92a6-a509-4549-baea-08f5d1862f85</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗначенияДоступа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9fd16d51-91bb-4973-a7c4-cf4db87da8bf</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="08c6b4c2-cd43-46a8-ad3b-c064052f6e0a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗначениеДоступа</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d1eda8f4-ffdd-445a-882c-6124d9f7fcf2</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ЗначениеДоступа</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="887da89c-638f-4a0c-a1d2-9e4a2eacc503">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДнейПроизводственногоКалендаря" category="Ref">
+				<xr:TypeId>7f2966fc-14e9-4a23-876c-4707288558c3</xr:TypeId>
+				<xr:ValueId>fc242786-56be-4ca2-9f70-3872bbd06ebc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДнейПроизводственногоКалендаря" category="Manager">
+				<xr:TypeId>66e01f80-287a-4f0d-bfd6-2a9044268a23</xr:TypeId>
+				<xr:ValueId>214dca55-fcb2-41ba-8c36-25268958eae1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДнейПроизводственногоКалендаря" category="List">
+				<xr:TypeId>f010dafd-f4ba-4689-9eb6-84abefedacf4</xr:TypeId>
+				<xr:ValueId>c668fefd-6564-4c24-acc4-db2ab5965922</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыДнейПроизводственногоКалендаря</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7c1ce6f1-558b-4853-a3ae-61a85cd20318</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0185becd-bd2e-42ce-ac51-05a0f6d4b1bf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Рабочий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>18d0a858-7e7c-45f8-a826-c921f976c5ee</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

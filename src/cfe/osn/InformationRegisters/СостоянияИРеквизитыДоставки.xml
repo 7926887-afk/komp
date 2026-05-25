@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="c35bb5ea-023d-4a41-adde-c2aae8787a0e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияИРеквизитыДоставки" category="Record">
+				<xr:TypeId>b88b88c8-d1fa-45f5-80b3-2cdae7bbbdbb</xr:TypeId>
+				<xr:ValueId>5084148a-46ae-4c68-8d37-73dde46ff29b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияИРеквизитыДоставки" category="Manager">
+				<xr:TypeId>b85c58f0-21d5-4b54-ad55-0becaf2c116f</xr:TypeId>
+				<xr:ValueId>59f46c8a-6d2b-4b12-b78b-2dacdddb2569</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияИРеквизитыДоставки" category="Selection">
+				<xr:TypeId>6e177410-c582-4b19-adf4-991b3b564f08</xr:TypeId>
+				<xr:ValueId>aaddbee8-12f8-4b09-bf2d-5708a3b9b305</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияИРеквизитыДоставки" category="List">
+				<xr:TypeId>5a642156-b63d-415c-8319-f65fdbf4be89</xr:TypeId>
+				<xr:ValueId>20fd4024-6ad7-4137-bde2-ae37a0446f5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияИРеквизитыДоставки" category="RecordSet">
+				<xr:TypeId>7314966b-ce86-4e3b-8f87-9c1b73caa270</xr:TypeId>
+				<xr:ValueId>8823b5d5-4cd3-4736-8ad9-60dfc63b30d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияИРеквизитыДоставки" category="RecordKey">
+				<xr:TypeId>0be90211-7afe-42f6-9891-13b89bc453f6</xr:TypeId>
+				<xr:ValueId>f1d09ee3-b17c-4cf2-a376-dedcae3a953b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияИРеквизитыДоставки" category="RecordManager">
+				<xr:TypeId>a72fa479-c111-44bd-a872-8f7ff2129c26</xr:TypeId>
+				<xr:ValueId>b1573ab9-cd38-48fb-8b6c-198209e7dff6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияИРеквизитыДоставки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a868ca92-056a-4d0a-9f81-cc25dea4689c</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="a13a9707-2aa1-4879-bb96-0a3f7473594d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Адрес</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>16537153-fd12-4040-86a7-4bb183c97956</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="da042be3-7f9e-4e5f-9cbe-8573c5e57e47">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4b8c4a32-452b-431e-9ba6-e6fa9ee5dc8f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияДоставки</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b53971fc-b5fd-4573-895e-785fef942c29">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоставитьПолностью</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a2515e3f-e33c-47d8-a4f8-42ba1311b2dc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="2c5b671e-7c4e-490d-b3b4-e23335f295c0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресЗначенияПолей</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3e564b1d-32c6-4e35-9a58-ff82d0fd12cb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e60645e1-1dec-430e-a6c9-2dd85a0a1b7a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВремяС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cd68befe-2334-4d95-8c5a-a5c3f5c6dae7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Time</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="afbe7b69-4c09-4fd5-bb1b-04f3fd31d99d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВремяПо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0952911e-4115-4fc1-8161-ec8d869b6e22</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Time</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b43ae394-6a6b-4407-bb26-563b03aa53b2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительнаяИнформация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e50733ba-8c2b-43f4-8b6b-f08aba09426f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f8b001b6-a0fd-4399-b3d9-e7b601f03552">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a34c5373-d556-4306-9808-d83683aed4be</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>11</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e10fb8ef-dace-49c1-a5dc-31f89172cd90">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Дата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a2d03338-d318-44c2-9fee-f97621d48919</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b7a16949-908d-47df-a044-f06fda8e5949">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОсобыеУсловияПеревозки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>24629c7a-2abc-4adb-a4d4-902c71d7a2f7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="69b070e4-69cb-4747-9548-cec48eef8193">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОсобыеУсловияПеревозкиОписание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8e66d78d-cd8d-4564-8d21-81662a1b2074</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5a4a3a88-91d4-4b33-8080-2022dec2be43">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазбиватьРасходныеОрдераПоРаспоряжениям</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>87e51901-d207-4011-b41b-632ba0fc6a2d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="c342d025-b341-4e69-aece-f4407cfa428e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Распоряжение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>29a20d1e-315f-455e-8d43-502dae4f474d</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.РаспоряжениеНаДоставку</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="19e8f84c-50c9-4795-b9f4-34b1f69aacaf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>57331f56-a991-4c76-b1d7-3247bbfa242f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="296c8823-fabc-4b45-b6f6-b40da4f79ddf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПолучательОтправитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>282e3d2c-3a88-4cf3-af5b-3714e1dae3c9</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОтправительПолучательДоставки</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="158c2155-7c77-4c1c-be98-672a1c9bfe68">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Перевозчик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1813e264-2d40-46be-a153-33cdcb2afbc1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="350fb0e6-2f35-4171-a74b-632449d48420">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СпособДоставки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f6c04ea1-ba45-4ee9-bcab-d0e6ee33f03d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыДоставки</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="3cf634fd-923b-49c5-9581-c91274c9710d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Зона</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>be7fb96b-cc04-4619-a713-d62235916a69</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЗоныДоставки</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

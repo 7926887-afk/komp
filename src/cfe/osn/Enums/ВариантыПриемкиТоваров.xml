@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="a849be69-a437-4ce8-ba6b-2b34fc515c6c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыПриемкиТоваров" category="Ref">
+				<xr:TypeId>622b48fe-1699-4918-b997-a63b9cfbc234</xr:TypeId>
+				<xr:ValueId>bd87a667-1677-4653-aa4f-a019f6b2d0e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыПриемкиТоваров" category="Manager">
+				<xr:TypeId>d7a20c43-1234-452e-addc-9bd8a477aeb6</xr:TypeId>
+				<xr:ValueId>82ded591-acbb-4bd4-b8fb-69f21cc76302</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыПриемкиТоваров" category="List">
+				<xr:TypeId>0e6e018e-4fee-4710-bc3a-173d9d98c65e</xr:TypeId>
+				<xr:ValueId>3ce01651-2686-4812-8593-ec7f0d6dce77</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыПриемкиТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4ac76022-5cb3-45b4-bcb8-f601c15cee32</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c33a1a0e-926a-4e6d-ac2f-58960a3481cd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазделенаПоЗаказамИНакладным</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0b878554-7a73-4ff3-b553-ce461e6a2d76</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

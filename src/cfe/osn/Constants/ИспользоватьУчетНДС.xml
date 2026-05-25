@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="906a3b1b-49a4-45a3-b79f-6584c6c1efbb">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьУчетНДС" category="Manager">
+				<xr:TypeId>64444212-26be-46c1-97bf-2bf4ec4db70d</xr:TypeId>
+				<xr:ValueId>c414c21c-0985-4381-9de8-d5ecaf8588ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьУчетНДС" category="ValueManager">
+				<xr:TypeId>104e9c28-f52c-4bc5-960b-faa778197f31</xr:TypeId>
+				<xr:ValueId>dec254e5-8af0-482d-8cc3-6d8a7caa5b77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьУчетНДС" category="ValueKey">
+				<xr:TypeId>b9887494-b9ec-4761-b8ac-4445ec717ed0</xr:TypeId>
+				<xr:ValueId>08077936-e602-4544-b5c6-241bdac5982a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИспользоватьУчетНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d42176a8-2aac-40fc-ba0a-7e6648969b5f</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

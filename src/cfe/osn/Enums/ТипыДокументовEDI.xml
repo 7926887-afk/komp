@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="a449bc33-d677-426d-b8e0-782e24ac7893">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыДокументовEDI" category="Ref">
+				<xr:TypeId>0fa786c8-06a7-4803-81b1-4aeaa6b37597</xr:TypeId>
+				<xr:ValueId>76cdf478-2d2b-43f3-9bfc-9233e9f0097c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыДокументовEDI" category="Manager">
+				<xr:TypeId>6a925d6a-f451-4ef2-a5c7-de35934ae283</xr:TypeId>
+				<xr:ValueId>36267822-13b0-4e1b-9716-a395c153e754</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыДокументовEDI" category="List">
+				<xr:TypeId>bbe10ae5-c86f-458b-b7e2-3e9066331fe5</xr:TypeId>
+				<xr:ValueId>f82acde0-dce6-470a-9b21-d8cb557142f6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыДокументовEDI</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>75e8d67c-39f5-4492-8243-2621998759cc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="41894035-fb4c-4980-9414-84f52966e3ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказПоставщику</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5c34e80e-bb36-4c8c-a5b8-df5dcb463d12</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

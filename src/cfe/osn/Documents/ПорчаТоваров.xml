@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2198dd82-0a5b-4d8b-9c43-00c7cb0bfe2a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПорчаТоваров" category="Object">
+				<xr:TypeId>fa8a9748-18f6-471a-9e30-eb07d669f0e3</xr:TypeId>
+				<xr:ValueId>0a71e4ca-3ed0-4475-903c-46014e034600</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПорчаТоваров" category="Ref">
+				<xr:TypeId>5816b1de-cd99-4730-b263-abed9cc5ffa6</xr:TypeId>
+				<xr:ValueId>83aa50df-20c0-4e71-97da-6563fa3c544b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПорчаТоваров" category="Selection">
+				<xr:TypeId>5c97847c-6371-4011-9260-387b3c5e1341</xr:TypeId>
+				<xr:ValueId>9e0c7e73-90c0-4206-b7c5-633cc7cd546f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПорчаТоваров" category="List">
+				<xr:TypeId>ca810a13-70cc-466a-a087-d7e34215e5a6</xr:TypeId>
+				<xr:ValueId>55d63841-2a8c-4512-a347-e468e7606903</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПорчаТоваров" category="Manager">
+				<xr:TypeId>baaf4907-b0fb-4da2-8c3a-0b7da6c03f6b</xr:TypeId>
+				<xr:ValueId>3889ca81-13dc-46f1-aad8-b5149c312822</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПорчаТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>070f093e-d837-4cac-9f64-59cec46c870d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f905de2c-b300-4e74-a3ff-377d46de044d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПересчетТоваров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>06577f57-2c06-4d15-9f73-bce9612864c6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПересчетТоваров</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="2b020fa4-6876-40e3-95a0-884dbd18f614">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПорчаТоваров.Товары" category="TabularSection">
+						<xr:TypeId>18ca72d2-8e81-480a-9a28-1f9bfcc2676f</xr:TypeId>
+						<xr:ValueId>78302ca6-951e-43f0-abc4-de6212aacbc3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПорчаТоваров.Товары" category="TabularSectionRow">
+						<xr:TypeId>af793515-b338-4d20-ba54-71d5b5961f44</xr:TypeId>
+						<xr:ValueId>1945136b-4d7c-4701-9a60-9d9d494d80b6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>622db9ae-c2bb-4a99-8ca9-75d4ee495d34</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4c39d16f-64ee-4631-8446-13f6a1429571">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3eaf4f58-d17b-44be-8fd6-c14f273fa150</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

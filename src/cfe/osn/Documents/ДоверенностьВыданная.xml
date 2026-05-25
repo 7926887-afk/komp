@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2b3aca34-1443-4e74-bd3a-7e0d5bc7262f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДоверенностьВыданная" category="Object">
+				<xr:TypeId>a7bf497f-bbd2-4bef-b341-4a0a1aeeba8d</xr:TypeId>
+				<xr:ValueId>230cbd06-d5ef-4dc7-b658-da05836df244</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДоверенностьВыданная" category="Ref">
+				<xr:TypeId>fefdb3ab-c0be-471e-98d4-6f457cf77fe2</xr:TypeId>
+				<xr:ValueId>333de461-2c67-4931-8e0a-2a7dd20b0383</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДоверенностьВыданная" category="Selection">
+				<xr:TypeId>c8dda3c4-d3d4-471e-91e6-9c29ed2f7f93</xr:TypeId>
+				<xr:ValueId>bd42542f-48e6-48c8-ba4d-11c8940702aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДоверенностьВыданная" category="List">
+				<xr:TypeId>b17057ed-7a95-4200-85be-ca8c86bc900a</xr:TypeId>
+				<xr:ValueId>e21fe266-72c5-4517-b032-16f3f6a5f4ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДоверенностьВыданная" category="Manager">
+				<xr:TypeId>f3683f7f-71c7-445f-bab9-9cd53c1a80ae</xr:TypeId>
+				<xr:ValueId>a32115cd-ce3c-40b5-af77-d73836d9abc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДоверенностьВыданная</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ac063c75-89dc-4887-b5a8-d36c32573ef7</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f7d08e99-6ef7-49d9-9c3e-e51746bbface">
+				<Properties>
+					<Name>_ЗаявкаНаДоставку</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заявка на доставку</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef._ЗаявкаНаДоставку</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2a114b17-c05d-4c9a-b70c-1d4d1374c685">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Статус</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f38cb39d-d735-494c-9e45-6c33a8307c62</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыДоверенностей</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Template>ПФ_MXL_М2_ru</Template>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

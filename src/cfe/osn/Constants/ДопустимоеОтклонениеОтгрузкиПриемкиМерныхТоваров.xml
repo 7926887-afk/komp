@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="6adeeb4d-c772-43d2-9458-3c1a21e652d2">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ДопустимоеОтклонениеОтгрузкиПриемкиМерныхТоваров" category="Manager">
+				<xr:TypeId>a4829d34-5dc1-4338-bd2b-51095c02bec2</xr:TypeId>
+				<xr:ValueId>81369ea1-d0b9-44e6-9f6c-1c029918fa09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ДопустимоеОтклонениеОтгрузкиПриемкиМерныхТоваров" category="ValueManager">
+				<xr:TypeId>2002075e-33d0-4406-a7db-ac531df1a86f</xr:TypeId>
+				<xr:ValueId>5d5cfc26-8614-4cc6-8ae5-4e17a093503d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ДопустимоеОтклонениеОтгрузкиПриемкиМерныхТоваров" category="ValueKey">
+				<xr:TypeId>a3be944b-94b0-4b72-a9fd-0d4c4837c961</xr:TypeId>
+				<xr:ValueId>885d93c4-5a6b-4348-be1c-97aa7d203795</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДопустимоеОтклонениеОтгрузкиПриемкиМерныхТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fa06a21e-c6a3-4f4c-9346-7b3a347b1b2a</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

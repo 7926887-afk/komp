@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="04ca0f7b-ed7e-435e-be58-7b3ef88e78f9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НастройкиИспользованияСерийНоменклатуры" category="Ref">
+				<xr:TypeId>bbe36b10-c1a5-4133-b94b-bbb93a7dcf85</xr:TypeId>
+				<xr:ValueId>279c2721-9fd0-4c2c-8d2c-e23e758bf52f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НастройкиИспользованияСерийНоменклатуры" category="Manager">
+				<xr:TypeId>ce0c3040-a5ab-49e6-8f0b-10359bfca5f4</xr:TypeId>
+				<xr:ValueId>2a47386e-f6b4-4ebd-9e4f-f155cd0345b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НастройкиИспользованияСерийНоменклатуры" category="List">
+				<xr:TypeId>b9f6baa1-ca76-4c41-92ea-990931a385e1</xr:TypeId>
+				<xr:ValueId>0ea7cc8a-8b59-4ef1-8bb5-a728898ed8bc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиИспользованияСерийНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6acd3aa2-61e9-49e7-be2a-40e6ad0e4ef4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bc0410ab-0bc0-4f26-9a33-31129c971fb8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЭкземплярТовара</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b652662e-74f7-49e5-a093-a623c1c276ad</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="21c2fdfc-ec8d-498f-9710-bc1e6fe6216a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПартияТоваров</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>298969c8-8fe6-4d10-a0a3-2efc243e4439</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

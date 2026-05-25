@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="7deb6fc2-2658-457d-8d5c-eacd85b80492">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияОбменСБанками" category="Record">
+				<xr:TypeId>5b204e41-d4cf-4938-9a44-0c7d5f4dbe9b</xr:TypeId>
+				<xr:ValueId>bd938f4c-2547-415a-be6e-7681f3fc8e7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияОбменСБанками" category="Manager">
+				<xr:TypeId>55ade7ab-3760-496d-ad36-993a59b75d61</xr:TypeId>
+				<xr:ValueId>4371a099-74c1-4f85-ac42-1e3ecd6afd93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияОбменСБанками" category="Selection">
+				<xr:TypeId>9ca00edb-a1ec-4359-8144-1d1119ea4ebc</xr:TypeId>
+				<xr:ValueId>f47bdd26-55c4-4b07-93ff-f481de5f8103</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияОбменСБанками" category="List">
+				<xr:TypeId>69347baf-a70a-4aa8-80af-928a099af857</xr:TypeId>
+				<xr:ValueId>14df6706-2653-43d8-8d81-87af78c5e89a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияОбменСБанками" category="RecordSet">
+				<xr:TypeId>4444b994-677b-475f-a72f-c9f107be3452</xr:TypeId>
+				<xr:ValueId>b3d86324-f956-4bb3-a97f-e2ee2e773357</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияОбменСБанками" category="RecordKey">
+				<xr:TypeId>065c8129-8a7f-452d-bdcc-0528b6abd3be</xr:TypeId>
+				<xr:ValueId>8bd3d074-2826-4b1e-9bd1-99110a76ec12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияОбменСБанками" category="RecordManager">
+				<xr:TypeId>10e69750-fb4f-43dc-aa30-92243888b0f5</xr:TypeId>
+				<xr:ValueId>5becbf01-905a-4d85-afd4-1fa5df868f7c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияОбменСБанками</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7651021c-ae8c-4076-bf99-d69ba0c2098b</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="d9694b61-3471-44bc-8b8d-c9eff013d0fa">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2367df4f-03fe-49c2-8e3a-28f2f841a957</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияОбменСБанками</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="7bfcf7ee-aa7f-4108-8e2b-18e0b1700f6e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СсылкаНаОбъект</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a2ae6d33-cbb6-423f-a84e-f473e9a15d3b</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ВладелецОбменСБанками</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

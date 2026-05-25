@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="82312389-2daf-40ca-a320-4e5e683796fc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВариантыКомплектацииНоменклатуры" category="Object">
+				<xr:TypeId>1fb5bdf6-5594-481e-9410-0f65f5cea6aa</xr:TypeId>
+				<xr:ValueId>9067e7e1-d87b-4987-b885-7405f5f8ef39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВариантыКомплектацииНоменклатуры" category="Ref">
+				<xr:TypeId>2c2c1564-30d7-46f4-8639-389ab83d3848</xr:TypeId>
+				<xr:ValueId>73c39c55-f344-460b-b325-66b13260de57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВариантыКомплектацииНоменклатуры" category="Selection">
+				<xr:TypeId>a71cb820-9eb5-480c-9fc5-570830a3c417</xr:TypeId>
+				<xr:ValueId>b88bf97f-5bcf-4c10-9cbf-1f8580662920</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВариантыКомплектацииНоменклатуры" category="List">
+				<xr:TypeId>1e18cb19-e6cf-482b-819e-84b01af2525c</xr:TypeId>
+				<xr:ValueId>53d9843f-efc4-4ca9-a260-a475e8ffdc1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВариантыКомплектацииНоменклатуры" category="Manager">
+				<xr:TypeId>4917fa7a-61f1-4777-b99f-22139b0fd739</xr:TypeId>
+				<xr:ValueId>2c35a65b-95ac-40b5-8a3b-90aae3024a46</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыКомплектацииНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1ce49200-30ea-44d6-97f7-390bc2c5dee9</ExtendedConfigurationObject>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+			</Owners>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9684ad82-1a60-46e8-8a09-e822c4b43ea8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВариантПредставленияНабораВПечатныхФормах</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2caba665-f9f7-4bf3-b1d8-b0a68930e931</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыПредставленияНаборовВПечатныхФормах</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="21df3d33-f571-4bd6-aa0b-825cd11f2dac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВариантРасчетаЦеныНабора</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9d4d454e-089e-4f1b-a27c-1f61f92c7089</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыРасчетаЦенНаборов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="61e67133-efa0-4730-bfc5-cced9945d148">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d3b62f06-d4bb-4174-a2c4-5a4620fb19c5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4f29e58c-e985-4a9b-9da4-eef2dbd99e02">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основной</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d12fbc71-4c06-46ae-b809-50cf5da7a46c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="271ad75b-db1d-4bde-95ab-3eea4c84b04a">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВариантыКомплектацииНоменклатуры.Товары" category="TabularSection">
+						<xr:TypeId>fa572221-2e92-4726-8c67-76c29ba3142a</xr:TypeId>
+						<xr:ValueId>809399d3-b2b8-49b4-826f-d85808504ee6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВариантыКомплектацииНоменклатуры.Товары" category="TabularSectionRow">
+						<xr:TypeId>dd18451c-e156-4aad-bb1b-55b0cf505e33</xr:TypeId>
+						<xr:ValueId>b0c8a1ac-68c1-4249-b052-2dfd05b5a6cb</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>354a86ec-cf4f-4299-a60e-80a77f619e67</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

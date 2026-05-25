@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9569d2a1-fcc8-4ea6-9215-3959cb1d467a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КорректировкаПриобретения" category="Object">
+				<xr:TypeId>89fec356-871b-4225-9316-6ece4c42b541</xr:TypeId>
+				<xr:ValueId>ea98f93e-f827-40df-9e60-a0b7050c2500</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КорректировкаПриобретения" category="Ref">
+				<xr:TypeId>995d1b22-c76d-4eea-8cd0-23e6eead3f58</xr:TypeId>
+				<xr:ValueId>3f23ff64-675b-49d4-bf40-e40291e83169</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КорректировкаПриобретения" category="Selection">
+				<xr:TypeId>df1c28db-a2b0-4278-be09-0fe35cee2018</xr:TypeId>
+				<xr:ValueId>5a837831-5c72-419e-9bc9-b68bc74f4c2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КорректировкаПриобретения" category="List">
+				<xr:TypeId>c09df5cf-5fa2-4be0-bc6a-ed544dec577b</xr:TypeId>
+				<xr:ValueId>0da5b8c0-bbfd-4a69-828f-2c7a28669680</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КорректировкаПриобретения" category="Manager">
+				<xr:TypeId>76dccf12-bf82-472a-a04f-84ec4a3f6ee7</xr:TypeId>
+				<xr:ValueId>a48714bd-ea52-407b-a3ed-afcc86840086</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КорректировкаПриобретения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7b04ebc4-7995-4cc8-abb1-dce1cca4ebd3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="53f29447-b4c2-4367-87d5-446e4f0d321e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5da3bee4-a8d0-4305-8d59-ee787adb98f4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9000b1f9-55a6-4ed4-bd6c-04880b56d67c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаДоходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e76910f9-dbe2-4b8b-94d1-49a1788568d4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиДоходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2671ca07-227c-461e-9bf3-f43372644a88">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>848b81c6-9b14-4631-8f6f-26ed0612073f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="9160dba2-e36f-4749-846a-a25c351d13f2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.КорректировкаПриобретения.Товары" category="TabularSection">
+						<xr:TypeId>6218596c-4f6b-486b-8ea9-16e853fd8854</xr:TypeId>
+						<xr:ValueId>00ed20a2-31bd-4572-a136-20621cafaf11</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.КорректировкаПриобретения.Товары" category="TabularSectionRow">
+						<xr:TypeId>2f44694b-b74a-4746-9221-f695e8de9c44</xr:TypeId>
+						<xr:ValueId>b8a57fc6-e347-4f5a-af7b-7a56ca28e92a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7d48c5ea-1f6d-4cf8-b4dc-3c549fcf962f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="91128979-ab01-43f9-8bfd-9a36f964ece9">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗаказПоставщику</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a134a6dd-1d5a-4ed9-9ae2-f0f954feab05</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="86be498b-0b78-43c7-83ca-4a281e223d73">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>767add4c-04b1-4498-b7e4-9b683f5c1bc3</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="78bb4d01-c9a3-4b2b-9baa-8b8b6f852251">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6cff84b8-9ab2-40cc-a73b-3cd2df16f95c</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

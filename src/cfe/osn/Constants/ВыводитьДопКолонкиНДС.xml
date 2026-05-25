@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="55ecd6ae-993a-4c97-b43f-f1fc7d92bcf4">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ВыводитьДопКолонкиНДС" category="Manager">
+				<xr:TypeId>f0638360-5e00-4bd5-b37a-8f2d9ebdf32a</xr:TypeId>
+				<xr:ValueId>c6f57a28-bd37-4262-952c-b9dddd3e0605</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ВыводитьДопКолонкиНДС" category="ValueManager">
+				<xr:TypeId>4d09991b-3631-4074-af2f-0fedcd8b8551</xr:TypeId>
+				<xr:ValueId>c4da7908-eba2-4f68-a683-3a5c7aada393</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ВыводитьДопКолонкиНДС" category="ValueKey">
+				<xr:TypeId>f4ae454e-9708-4d75-a509-bf4f3bca7536</xr:TypeId>
+				<xr:ValueId>4208c9ab-e3e3-4708-b7ce-e0a94829471e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыводитьДопКолонкиНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7ae7b0a6-d554-437b-a005-3f4d252e9a4b</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

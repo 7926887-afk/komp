@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="43e93132-f55f-4ab7-b6ff-65bd2cb3137e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыОформленияЗакупок" category="Ref">
+				<xr:TypeId>f67ae2ac-64b1-4819-bd36-a144ee82f666</xr:TypeId>
+				<xr:ValueId>8e284874-c984-4ba4-a211-06e605abd4ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыОформленияЗакупок" category="Manager">
+				<xr:TypeId>0239377c-d5d0-4010-b2ed-2c9f0eff09ee</xr:TypeId>
+				<xr:ValueId>dc41628d-c1da-4f60-8197-4b733c7a1104</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыОформленияЗакупок" category="List">
+				<xr:TypeId>2326a97a-4072-406b-a107-fbf7f559f052</xr:TypeId>
+				<xr:ValueId>373b40dd-d71a-4bfe-9e37-0b12fa428b85</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыОформленияЗакупок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c44a757c-46d2-4c65-844b-a7d50aa48b11</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="7e940f2d-5596-4185-828b-c979f1212385">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеотфактурованныеПоставкиТоваровИУслуг</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b382f901-fdc0-479c-a991-3283c103a354</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

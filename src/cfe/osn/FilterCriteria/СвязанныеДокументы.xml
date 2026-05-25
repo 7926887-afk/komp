@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<FilterCriterion uuid="cfbfdd3a-9cd2-49d1-b082-114d7581d9fd">
+		<InternalInfo>
+			<xr:GeneratedType name="FilterCriterionManager.СвязанныеДокументы" category="Manager">
+				<xr:TypeId>473d136b-0a37-4e6b-b0d0-ab94053011b4</xr:TypeId>
+				<xr:ValueId>7e84a68e-8ffa-4190-8962-d6885bb46c0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="FilterCriterionList.СвязанныеДокументы" category="List">
+				<xr:TypeId>f3f64114-c96c-4e2e-a7b4-6edb35d02406</xr:TypeId>
+				<xr:ValueId>d04d12f9-7139-4f41-92cc-db604bd010db</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СвязанныеДокументы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4c9dd3d1-067f-4e9e-8771-dbe1fb357a0b</ExtendedConfigurationObject>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаЗакупку.TabularSection.Товары.Attribute.ЗаказПоставщику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявкаНаЗакупку.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document._ЗаявкаНаДоставку.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document._ЗаявкаНаДоставку.TabularSection.Заказы.Attribute.ЗаказКлиента</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</FilterCriterion>
+</MetaDataObject>

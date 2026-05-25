@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="fadbba32-1063-4af7-b0e9-fbc363fe4ab0">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДанныеБизнесПроцессов" category="Record">
+				<xr:TypeId>8fc1f2c8-7492-40b0-a8c4-9ebfd28b45a4</xr:TypeId>
+				<xr:ValueId>4598a8cf-ba61-4307-9a42-b114392a1fb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДанныеБизнесПроцессов" category="Manager">
+				<xr:TypeId>df116c86-aeec-44bd-a377-d7cbfc27fd0c</xr:TypeId>
+				<xr:ValueId>866884a8-c7d5-4493-ae98-0e1d7fdab868</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДанныеБизнесПроцессов" category="Selection">
+				<xr:TypeId>e050a4b9-0f24-4515-9042-c49274240db6</xr:TypeId>
+				<xr:ValueId>f490341e-c7a5-45a8-ba7d-a316c447d660</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДанныеБизнесПроцессов" category="List">
+				<xr:TypeId>210f392d-d3db-4756-b193-b1ea24ae8f69</xr:TypeId>
+				<xr:ValueId>36beafb2-b0a4-457c-9210-8fd1db989e3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДанныеБизнесПроцессов" category="RecordSet">
+				<xr:TypeId>3d73e461-e311-4dda-8fdd-319decf028aa</xr:TypeId>
+				<xr:ValueId>75d34c62-5d43-4c1b-9ead-72a12adbf9f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДанныеБизнесПроцессов" category="RecordKey">
+				<xr:TypeId>03c7758c-d7a3-40fa-b98c-17203383931d</xr:TypeId>
+				<xr:ValueId>1d6f4dfa-9595-4efe-8138-94c556c74e35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДанныеБизнесПроцессов" category="RecordManager">
+				<xr:TypeId>d2cc5324-5572-419b-ae00-38d4ebeb2327</xr:TypeId>
+				<xr:ValueId>be1a7773-9815-466a-825a-af04b5fe6417</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДанныеБизнесПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8f17ec3f-6d62-46b8-baef-b20430e948ce</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="07ec8df7-38f7-4a4b-8a91-1aa28b50956d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ea1298d0-9396-4a50-b83e-24064e8dd99d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>11</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c899b92a-f47f-4768-a726-b51783693063">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Дата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>038dbb00-e4c6-4e64-b861-3a0764f54ab3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="441e2448-4bbc-4cbe-9744-3ba338391aca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Завершен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1c291f7d-a493-4297-8aaa-912896800066</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="340374e3-0d9f-4430-a44a-7b8a08628acd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Стартован</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>69149801-a825-4ed2-b077-c26660dff271</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="39e1e70d-0980-4863-be9f-56caa07cfab8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Автор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>12146ed3-c159-4d6b-ae1a-1ecd30e5a87e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f24cd4d7-3113-4452-87c3-1500b12b96a2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаЗавершения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>518ab687-b84a-40c8-8547-aee4257c1b71</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d008383d-a729-4c03-a31a-5d51e1f963e2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Наименование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5cec0949-bfe8-4f7e-98c1-0c402be3ea09</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="0f7f3f67-5a8b-4b08-8fb3-079c88e8f2c5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПометкаУдаления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7732ef07-16eb-46a0-9645-7de95c5482af</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ba19b4d2-1c9a-4dd9-b166-67e56ead0c51">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Владелец</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>75dac536-b316-4b04-a57b-03656c678bec</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.БизнесПроцесс</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Task uuid="89b84c75-73d0-4095-a7de-184bcc4f1a72">
+		<InternalInfo>
+			<xr:GeneratedType name="TaskObject.ЗадачаИсполнителя" category="Object">
+				<xr:TypeId>0313c878-bee2-4d24-8170-fa837bf6494d</xr:TypeId>
+				<xr:ValueId>caedc66a-5ca9-4d05-99ec-50052fafdc6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskRef.ЗадачаИсполнителя" category="Ref">
+				<xr:TypeId>dcde2205-9cf2-41d9-ab06-c4a0c43294ce</xr:TypeId>
+				<xr:ValueId>5b61a7de-34da-49f4-a890-ce0969c4c88e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskSelection.ЗадачаИсполнителя" category="Selection">
+				<xr:TypeId>46e4d789-1b0d-4c61-92a4-c8d0de4696de</xr:TypeId>
+				<xr:ValueId>82200557-2c7b-4284-87d0-4d9caddaa6c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskList.ЗадачаИсполнителя" category="List">
+				<xr:TypeId>3f3a7f51-0cc8-44ab-802e-5807512a5d36</xr:TypeId>
+				<xr:ValueId>79164473-b0ff-4632-b4df-39efbae0a223</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskManager.ЗадачаИсполнителя" category="Manager">
+				<xr:TypeId>73056bca-a30e-4158-bc39-c86923efd157</xr:TypeId>
+				<xr:ValueId>a03ed8b3-d368-49db-8fb2-460d4945ca58</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗадачаИсполнителя</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3ad08f4a-6202-4099-b6cc-bc116e6731a0</ExtendedConfigurationObject>
+			<NumberLength>14</NumberLength>
+			<DescriptionLength>150</DescriptionLength>
+			<MainAddressingAttribute>Task.ЗадачаИсполнителя.AddressingAttribute.Исполнитель</MainAddressingAttribute>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="31a321b4-ce0a-4f06-ba80-6749725147a2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СрокИсполнения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>62b75eb2-42e1-4484-a77f-b676dd36f3d4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e6c832b-165e-462e-ba11-3c00cb5c8fc7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Описание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f57c558c-2c94-4b9d-8697-448d0548ab1a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a31c7794-3a69-4d6d-acc8-205d649ce4ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаНачала</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2139532c-f6cb-4393-936e-cc912e5adca9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2a797a1e-3b6a-4f75-b809-335d87c4f45c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаИсполнения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f80b505f-b4ff-45fb-bd88-74b274ae9d2b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c48efedd-fc6e-423a-9f6a-606b4fc6a153">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Предмет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a310c09f-4d3a-4d3a-9ad5-7a5735a33a1d</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="059ef6f3-12cd-44a5-b6f2-ee55fa8a614a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Важность</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b1dc619d-8d91-4f7a-aa50-1d07ff9aebdc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВариантыВажностиЗадачи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1cc1df2e-9127-47cf-a155-d7b93be95686">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Автор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fd96c8ab-602a-4735-b168-52b501e80351</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7a68eb4e-5948-4b4b-b5cf-ebe8771f88a3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПредметСтрокой</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c32db021-eca1-4b67-aa85-3d6e28c51b53</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2b6049fb-dd20-4c46-b882-a29282f4408a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПринятаКИсполнению</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e9ed0ee4-3fbe-4093-9078-cb265ed6842c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ecc0bc4b-d055-4800-81e2-933f8ba322b7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СостояниеБизнесПроцесса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c4a40dc9-b619-4219-9d9a-e11f49a14fb1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияБизнесПроцессов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<AddressingAttribute uuid="1bbc9a87-f616-4e06-ac74-e810a4408e36">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Исполнитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>88f44c9b-216d-4d7e-bc88-1e6b253ed01e</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</AddressingAttribute>
+			<AddressingAttribute uuid="6ddfcb2e-f59c-451d-8cb1-c65837e28dca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РольИсполнителя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bc5eca9b-32d8-44e0-a127-8ad1f47d7957</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.РолиИсполнителей</v8:Type>
+					</Type>
+				</Properties>
+			</AddressingAttribute>
+		</ChildObjects>
+	</Task>
+</MetaDataObject>

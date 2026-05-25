@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fd5d6c1d-f065-4e94-bf9d-b3b066f30593">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтражениеРасхожденийПриИнкассацииДенежныхСредств" category="Object">
+				<xr:TypeId>f76e4957-daf5-494c-886a-e4480b4afec5</xr:TypeId>
+				<xr:ValueId>246867ac-0925-40f0-a8bb-04809fb0b32d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтражениеРасхожденийПриИнкассацииДенежныхСредств" category="Ref">
+				<xr:TypeId>55c9fd22-2d30-4479-a768-f3d19bed0f2c</xr:TypeId>
+				<xr:ValueId>ec86c35d-d0aa-4178-80bd-dde147e641f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтражениеРасхожденийПриИнкассацииДенежныхСредств" category="Selection">
+				<xr:TypeId>ab0554b1-2681-4700-80f3-70c47ec71d2d</xr:TypeId>
+				<xr:ValueId>a88bf178-b2a5-44df-a43c-fefed7d34b50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтражениеРасхожденийПриИнкассацииДенежныхСредств" category="List">
+				<xr:TypeId>a23b1ce0-7c64-4149-9858-7a68d683795f</xr:TypeId>
+				<xr:ValueId>3f73bebd-d4b7-4d7f-85ec-866ed174e1d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтражениеРасхожденийПриИнкассацииДенежныхСредств" category="Manager">
+				<xr:TypeId>ed3de703-fc03-46c5-9943-e1f0f69cdfc4</xr:TypeId>
+				<xr:ValueId>bd868268-1916-4b13-99a7-5d397c7f0f4b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтражениеРасхожденийПриИнкассацииДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f61c5730-bd21-4187-8594-05516264a271</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f1e7d965-80d2-4e58-912a-c16c971eb561">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасходныйКассовыйОрдер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70892897-9092-4be4-a4db-8520922f743e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

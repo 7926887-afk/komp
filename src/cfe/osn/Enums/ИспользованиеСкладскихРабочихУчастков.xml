@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ab691eca-9ec6-44e0-a897-aefddf85cddb">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ИспользованиеСкладскихРабочихУчастков" category="Ref">
+				<xr:TypeId>778217c0-b1d1-477b-80a2-7b0d47d4af8b</xr:TypeId>
+				<xr:ValueId>351e5a76-7af1-45cf-9e9a-8e7394ee78b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ИспользованиеСкладскихРабочихУчастков" category="Manager">
+				<xr:TypeId>7cdd50f4-f5a0-4f76-ba2d-ef1794872c45</xr:TypeId>
+				<xr:ValueId>fa543f4a-d281-4556-bc70-fdfb83b46e37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ИспользованиеСкладскихРабочихУчастков" category="List">
+				<xr:TypeId>7a8584b1-d31e-4ae3-a645-a5cf5ff4a4e6</xr:TypeId>
+				<xr:ValueId>a515dccb-576e-4050-921a-7bda7377f57a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИспользованиеСкладскихРабочихУчастков</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>99acb177-461e-4f89-aea3-0fffd1ca2f23</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a30824f2-9a01-4074-9508-6cbe16b6d9f9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеИспользовать</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b2912e9f-3043-480e-a46c-4dc967d96c56</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dd1cd644-f83a-49f8-acbf-f2b260556877">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Использовать</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f459e67e-cf42-4daf-9244-741825d76ad5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fbcf7918-bcdf-47be-8547-fbe724ff8e40">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОпределяетсяНастройкамиПомещения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fdf058e0-a99a-4427-8f2e-31e1ac97bb6c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

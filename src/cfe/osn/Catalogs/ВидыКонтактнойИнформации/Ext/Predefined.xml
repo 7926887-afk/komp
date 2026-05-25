@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="23f86469-f47e-46df-84c2-593d3e536de9">
+		<Name>СправочникКонтрагенты</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контрагенты"</Description>
+		<IsFolder>true</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<ChildItems>
+			<Item id="595d5f3c-a237-46fa-930d-4e77d0134202">
+				<Name>ФактАдресКонтрагента</Name>
+				<Code/>
+				<Description>Фактический адрес</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="eba612df-0e7d-4b86-bf17-44e07fcb150a">
+				<Name>ЮрАдресКонтрагента</Name>
+				<Code/>
+				<Description>Юридический адрес</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="a28e9502-9f07-4400-aa5f-7e80226f8b02">
+		<Name>СправочникСклады</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Склады"</Description>
+		<IsFolder>true</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<ChildItems>
+			<Item id="8c68b326-8274-4d04-bc52-230aac043bc7">
+				<Name>АдресСклада</Name>
+				<Code/>
+				<Description>Адрес склада</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

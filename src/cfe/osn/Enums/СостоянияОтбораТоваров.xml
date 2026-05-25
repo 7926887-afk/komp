@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="cfe04429-9f49-46e6-b972-1415d2bb660a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияОтбораТоваров" category="Ref">
+				<xr:TypeId>ee437921-53e6-4a23-8135-e123461f663a</xr:TypeId>
+				<xr:ValueId>0b00fa15-508d-449f-b935-4cd34f8cd038</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияОтбораТоваров" category="Manager">
+				<xr:TypeId>2acf506a-ea08-4f42-95d2-a977bec0f65a</xr:TypeId>
+				<xr:ValueId>33e22ec6-c71a-4750-b9f1-af939b6f8307</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияОтбораТоваров" category="List">
+				<xr:TypeId>332d939f-b2fb-410a-9ffb-2e377e1d98be</xr:TypeId>
+				<xr:ValueId>e9e8a569-be94-4bac-ac6d-9d10e702772a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияОтбораТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>91de993a-6c2e-4bb2-a5dc-43034c70a7fa</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="79acf8c3-df62-4390-a98d-a1667dbf37cc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжидаетсяОтбор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7a1532cd-459c-4496-a81f-6feacf3d940e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5f66747f-3b4b-4e8e-bbc1-bff18f09bdf0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОжидаетсяОтгрузка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f4383838-9ac4-4abb-ba08-5d890fc33845</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b918dc13-ec57-471d-9680-6aa7a715185b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВПроцессеОтбора</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>165d73a1-af8f-4f9f-91d6-74095945d0b0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

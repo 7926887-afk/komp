@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6e49441c-186d-438f-95b6-98ce5a1156a8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВыборГруппыСкладов" category="Ref">
+				<xr:TypeId>f8ab9162-2dae-4d18-8c5b-b515f23c5181</xr:TypeId>
+				<xr:ValueId>79e57e30-1cb4-4c2d-bd94-8969d7643352</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВыборГруппыСкладов" category="Manager">
+				<xr:TypeId>295f5274-53d6-4961-87b6-a89f89b2dec5</xr:TypeId>
+				<xr:ValueId>afb4200d-6f21-4ae9-9be6-d76172810772</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВыборГруппыСкладов" category="List">
+				<xr:TypeId>82c07b77-7eb9-40b8-a0ab-5954a1a40a42</xr:TypeId>
+				<xr:ValueId>3c0334c8-8ae3-438b-944d-d7d151be54a6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыборГруппыСкладов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7e07aac6-650f-48a2-a423-b41cb718c439</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b5c0fd0d-2bd0-4dee-b2f9-847a3b52a72a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазрешитьВЗаказах</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>218ebcfd-6bec-4d57-a581-5742147320b9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7e2619c2-79c8-42d9-9262-44aeb5d1ef42">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазрешитьВЗаказахИНакладных</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>00c8f6f5-a1b9-4566-9b39-0d7680ea3d94</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

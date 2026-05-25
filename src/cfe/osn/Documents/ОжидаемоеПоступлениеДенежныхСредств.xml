@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f91b0739-48d9-4a8a-90de-a7cf044081ec">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОжидаемоеПоступлениеДенежныхСредств" category="Object">
+				<xr:TypeId>2f8a46cd-d8da-4bd1-9e7e-33a11502ee9a</xr:TypeId>
+				<xr:ValueId>d554a8a4-40ad-4c24-b04d-f1092aa52e63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОжидаемоеПоступлениеДенежныхСредств" category="Ref">
+				<xr:TypeId>926617ae-7ffb-455c-a64a-9a0586146859</xr:TypeId>
+				<xr:ValueId>dda2cb81-3e67-4fe0-bb4a-6878fd9de419</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОжидаемоеПоступлениеДенежныхСредств" category="Selection">
+				<xr:TypeId>51be7e26-8617-460e-99fb-cfa5c15987ff</xr:TypeId>
+				<xr:ValueId>2b3316d9-3d95-4670-a6fa-aa8f1bebe465</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОжидаемоеПоступлениеДенежныхСредств" category="List">
+				<xr:TypeId>f19ac863-fb7a-43a4-92ef-2a2111021ec2</xr:TypeId>
+				<xr:ValueId>1d2d8e9f-1414-4d92-8482-4791e4d27582</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОжидаемоеПоступлениеДенежныхСредств" category="Manager">
+				<xr:TypeId>f1cc2d9b-2ba5-4b03-873c-091fa449b409</xr:TypeId>
+				<xr:ValueId>896e7bb7-d346-4dde-9450-f8efff3c0132</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОжидаемоеПоступлениеДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>46a60621-8aaf-4bff-a16a-0d97e3897b78</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

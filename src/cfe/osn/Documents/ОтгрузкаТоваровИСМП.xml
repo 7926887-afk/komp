@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a4b2c476-592d-4b08-b73e-4025001b4b5b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтгрузкаТоваровИСМП" category="Object">
+				<xr:TypeId>b605be09-402e-4511-ba7f-d85b1378dde7</xr:TypeId>
+				<xr:ValueId>889a0bea-28dc-4242-9584-76c84467b4b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтгрузкаТоваровИСМП" category="Ref">
+				<xr:TypeId>2ca2a258-4a9c-4694-89bb-3bda07f37e2b</xr:TypeId>
+				<xr:ValueId>58652e4f-1cc2-45b9-8f86-ee446e6ed35f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтгрузкаТоваровИСМП" category="Selection">
+				<xr:TypeId>f29a6bd8-502d-4116-9dde-1160bd37bc4c</xr:TypeId>
+				<xr:ValueId>1dc60e73-8ff8-4cc6-8cca-a106b33fce8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтгрузкаТоваровИСМП" category="List">
+				<xr:TypeId>0386c0ef-be9d-4316-9dc1-b1014158d6cb</xr:TypeId>
+				<xr:ValueId>eec976dd-41ab-48de-bcb7-64112afad03d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтгрузкаТоваровИСМП" category="Manager">
+				<xr:TypeId>171d86bf-1c17-442c-bb96-0851b11cd56f</xr:TypeId>
+				<xr:ValueId>4aeabb6f-0c91-4352-8b23-7d59ebf979a1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтгрузкаТоваровИСМП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ff80fad0-2ab7-4a61-a8dd-399966d425a6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1be49330-2be9-4977-8bd5-119ede642f7f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>48333840-b987-4704-a890-efe7611d3efb</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеОтгрузкаТоваровИСМП</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

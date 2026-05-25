@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0f7a2528-e7f4-49d3-9c3d-f014c0175a75">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПроизводственнаяОперацияВЕТИС" category="Object">
+				<xr:TypeId>2d80bbd8-cabd-4e34-b3d3-6d9136e9deb4</xr:TypeId>
+				<xr:ValueId>8d355628-aef3-48c5-922f-10ba6b3e50c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПроизводственнаяОперацияВЕТИС" category="Ref">
+				<xr:TypeId>9415601e-cd1b-4137-b684-9c341617803a</xr:TypeId>
+				<xr:ValueId>b6155c8b-04a4-4eca-af68-66dc26163c08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПроизводственнаяОперацияВЕТИС" category="Selection">
+				<xr:TypeId>e865960a-5b5b-45f6-be26-23c23bcfcd9c</xr:TypeId>
+				<xr:ValueId>2b4f6300-44ea-4038-a80e-9b58503079d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПроизводственнаяОперацияВЕТИС" category="List">
+				<xr:TypeId>185be865-0309-4dc5-84c3-4a8fb5efd47a</xr:TypeId>
+				<xr:ValueId>578cf29d-4081-4456-a5e1-1ba08ddca0b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПроизводственнаяОперацияВЕТИС" category="Manager">
+				<xr:TypeId>9c9fb38b-e20a-4ff2-89d7-394f6f128417</xr:TypeId>
+				<xr:ValueId>b498ece2-6236-494d-b8d2-454598f757c2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПроизводственнаяОперацияВЕТИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ef699604-a4cb-4d1f-a1b0-84846d1b5e6e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e7511481-df88-4af3-ad26-bca908de3428">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f95316f-ed43-44d8-b1a9-018f9b5b4f28</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеПроизводственнаяОперацияВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

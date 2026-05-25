@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a045afce-5582-43e4-9dd4-5e1390f4b32f">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиОткрытияФормПриНачалеРаботыСистемы" category="Record">
+				<xr:TypeId>24bda95e-c037-4f91-8709-aecae372a037</xr:TypeId>
+				<xr:ValueId>ea5936d6-3087-4939-9ee6-9405fb34c038</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиОткрытияФормПриНачалеРаботыСистемы" category="Manager">
+				<xr:TypeId>c917daa7-493b-4d2c-abc0-7f978fde9cb0</xr:TypeId>
+				<xr:ValueId>961a0334-2c10-45a4-bb5d-8494718c0cf3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиОткрытияФормПриНачалеРаботыСистемы" category="Selection">
+				<xr:TypeId>fecdd0c6-5702-4cf6-860a-b2d6b752b236</xr:TypeId>
+				<xr:ValueId>cd01b5ea-cfb5-49cd-86f2-4982b97aaf15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиОткрытияФормПриНачалеРаботыСистемы" category="List">
+				<xr:TypeId>ed19501f-63a9-4638-aeb5-dbf416b966f0</xr:TypeId>
+				<xr:ValueId>54c4166a-470c-4326-a28b-47e9d229d083</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиОткрытияФормПриНачалеРаботыСистемы" category="RecordSet">
+				<xr:TypeId>9c307f9b-78b7-44d4-aef5-10ce242246f3</xr:TypeId>
+				<xr:ValueId>1c7dfb6b-0208-45bb-95ba-90c601494759</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиОткрытияФормПриНачалеРаботыСистемы" category="RecordKey">
+				<xr:TypeId>29f68470-6c39-4e8d-a859-c15796edd95c</xr:TypeId>
+				<xr:ValueId>7033eb9a-6cca-401e-84d2-c8b0114ce848</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиОткрытияФормПриНачалеРаботыСистемы" category="RecordManager">
+				<xr:TypeId>5b2dfe52-8845-4b39-95a3-611975df53f7</xr:TypeId>
+				<xr:ValueId>80d94154-25a8-439b-9fba-32e5dde0e47d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиОткрытияФормПриНачалеРаботыСистемы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a0014f2a-6d44-4933-8c33-ea8216b3aa34</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e83344a1-3885-4936-be5f-d28f74de7066">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетКомиссионераОСписании" category="Object">
+				<xr:TypeId>1c8350de-2c35-4b94-8bb2-80b3fd8cfdee</xr:TypeId>
+				<xr:ValueId>42c555ec-192e-4e55-a4c8-8b0049f202dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетКомиссионераОСписании" category="Ref">
+				<xr:TypeId>dde60fb1-d4c7-4c54-bdac-ceab4da54d8f</xr:TypeId>
+				<xr:ValueId>91f782a0-5719-4dcc-89e0-94a54d76461a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетКомиссионераОСписании" category="Selection">
+				<xr:TypeId>e4c53658-2abe-4bd2-a64f-73da334b9c24</xr:TypeId>
+				<xr:ValueId>cf26a27e-f3af-4cc1-a2ad-10199c680f86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетКомиссионераОСписании" category="List">
+				<xr:TypeId>c8b11fe0-2fe1-4c23-a22d-c222907d8316</xr:TypeId>
+				<xr:ValueId>a637b468-b7d2-4724-8335-f5aa0e5c68ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетКомиссионераОСписании" category="Manager">
+				<xr:TypeId>dd8500be-e3f6-405e-bf03-fedbe80094e7</xr:TypeId>
+				<xr:ValueId>56912ba3-894e-40ee-9909-843608787da6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтчетКомиссионераОСписании</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7b86cf07-7253-4afb-8d2f-98e82aae1194</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="4906c4af-3301-4c76-b05c-6f3dd205a159">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетКомиссионераОСписании.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>b0cffe61-6742-4973-bd7d-2b18e203cd40</xr:TypeId>
+						<xr:ValueId>b770cb0a-a2d5-4e71-84a9-fbbbad87495b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетКомиссионераОСписании.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>5815317f-ad4d-4382-af0a-da1600d7e508</xr:TypeId>
+						<xr:ValueId>352370ef-e017-4790-8c4e-f98656dfdb99</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5c0bbdf0-ee22-47b7-a790-c28782f74b85</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

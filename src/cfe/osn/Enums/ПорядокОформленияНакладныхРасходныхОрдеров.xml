@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="b31165fc-ee0b-4f25-a3f5-eac1febb166f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокОформленияНакладныхРасходныхОрдеров" category="Ref">
+				<xr:TypeId>e93a0019-a29e-4d02-b1ee-7ac8cd278d14</xr:TypeId>
+				<xr:ValueId>8867e0e6-d8ed-4701-8f20-72fc5aa7c109</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокОформленияНакладныхРасходныхОрдеров" category="Manager">
+				<xr:TypeId>d46d0966-26c4-4155-b7c9-b792df4a5702</xr:TypeId>
+				<xr:ValueId>f1915d56-5517-47e7-818f-f225d26a4dbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокОформленияНакладныхРасходныхОрдеров" category="List">
+				<xr:TypeId>f7c77a9c-86b9-4483-8550-8c56eca88c41</xr:TypeId>
+				<xr:ValueId>a04e058d-d93e-467e-97ab-00661817f126</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПорядокОформленияНакладныхРасходныхОрдеров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ebe23eb4-a5c0-4ed3-bbb8-b9fa148750e3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1c78cb88-44f2-43e9-9884-a911d9533002">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СначалаНакладные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ae422298-e145-4204-afae-47d62f113f55</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

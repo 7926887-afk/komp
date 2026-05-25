@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="7f20d357-f942-4b3d-bfcf-5a6f210d57c1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТипыТранспортныхСредств" category="Object">
+				<xr:TypeId>ece70998-b9ca-44f5-a49e-7094c78d1f93</xr:TypeId>
+				<xr:ValueId>708a8e37-8e2a-404e-b582-ca0b2b1b722e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТипыТранспортныхСредств" category="Ref">
+				<xr:TypeId>e7dc39bc-5083-4527-9bda-576a146fc953</xr:TypeId>
+				<xr:ValueId>709d7519-de2b-4dc4-ac3a-f89068c636fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТипыТранспортныхСредств" category="Selection">
+				<xr:TypeId>a90d642e-c6cb-4128-8790-83fbeff72289</xr:TypeId>
+				<xr:ValueId>ae137c5c-106c-47cf-8b3a-b967149a38c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТипыТранспортныхСредств" category="List">
+				<xr:TypeId>631524dc-9a5c-4f92-b706-0d34d3d6bc6c</xr:TypeId>
+				<xr:ValueId>747adb46-6751-47c7-9e15-88434028f148</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТипыТранспортныхСредств" category="Manager">
+				<xr:TypeId>c38e7f8d-4c58-4224-984e-caa32a05c555</xr:TypeId>
+				<xr:ValueId>bb62b681-e39e-4b18-9a71-d5159f321100</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыТранспортныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2098ba8d-a466-4e45-a514-0657501a82b4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2595fa29-f260-4aaf-be48-b66293bd1651">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВместимостьПредставление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>171e4954-ae22-4673-bf93-30b20c58d1c2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dd938ab6-e24d-47db-bad7-e31332392a6c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВместимостьВКубическихМетрах</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>da9b11c4-c49a-4e04-97f1-e1fa0043840a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>9</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a49c9f3c-450a-4f50-aafa-340d02effbe5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГрузоподъемностьВТоннах</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>27f008e6-cf2b-4c20-975b-b8b6311f9c0b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>9</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

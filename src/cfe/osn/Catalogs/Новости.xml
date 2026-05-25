@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="306e2ec7-adc4-4ca3-bc86-7e7fd4577303">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Новости" category="Object">
+				<xr:TypeId>fa4bcb2c-ae2b-486d-9547-6ab00b00121f</xr:TypeId>
+				<xr:ValueId>55194eae-86fb-4815-b4f2-a70b3723a607</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Новости" category="Ref">
+				<xr:TypeId>296d2668-420e-4686-9cd3-ad3dcfb27093</xr:TypeId>
+				<xr:ValueId>21d49463-17b1-4de8-b82f-8f6be4bb9392</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Новости" category="Selection">
+				<xr:TypeId>d41fe79f-cbac-4256-b739-43dee98f18f5</xr:TypeId>
+				<xr:ValueId>51b274d8-89ee-476f-b0c1-8474e6ae66e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Новости" category="List">
+				<xr:TypeId>0e1de988-270a-45c6-8131-fb0e3a01cd91</xr:TypeId>
+				<xr:ValueId>9b97ef5e-2966-43ee-a25e-eaf9d585626c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Новости" category="Manager">
+				<xr:TypeId>dcfaf819-3e38-4df5-94e3-d04fac16b129</xr:TypeId>
+				<xr:ValueId>d4d21d59-4c4f-46cb-9121-190b15115aeb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Новости</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9b08c14a-3dbd-4390-b878-1f4c054c5a9b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

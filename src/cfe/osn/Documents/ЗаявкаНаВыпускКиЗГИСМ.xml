@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ea580225-5309-4d06-84e0-fd9d65ee87ae">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаВыпускКиЗГИСМ" category="Object">
+				<xr:TypeId>f829b507-ae82-405e-9285-317ad5263393</xr:TypeId>
+				<xr:ValueId>b79652ad-9fb6-44a4-ad88-939cb704f737</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаВыпускКиЗГИСМ" category="Ref">
+				<xr:TypeId>e6ee2525-894d-48de-a573-4dfaa1c612fc</xr:TypeId>
+				<xr:ValueId>ce80c365-f433-4915-9c5d-2cfca6aecef9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаВыпускКиЗГИСМ" category="Selection">
+				<xr:TypeId>7b9a104d-135c-40ea-b26a-964d0627b296</xr:TypeId>
+				<xr:ValueId>d5c34961-851f-4d3d-b268-7cdc33b630c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаВыпускКиЗГИСМ" category="List">
+				<xr:TypeId>dc236d8c-3ad3-46eb-9f82-45a9ecb86abe</xr:TypeId>
+				<xr:ValueId>74484412-5bc3-4e46-ab94-c17495b92b3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаВыпускКиЗГИСМ" category="Manager">
+				<xr:TypeId>c5819e39-2f9b-4f73-9a7e-ac34527acd5b</xr:TypeId>
+				<xr:ValueId>3639d7ff-cf29-4da3-9a16-6bee47423596</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаНаВыпускКиЗГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1d13b946-7d1b-49df-b8cb-d50a7e93045c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="74007f45-521b-454b-b6ab-5203e5419964">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9aeced8b-7607-41cd-ac23-41c0b2741948</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеЗаявкиНаВыпускКиЗ</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="003e507e-444b-4a64-8690-f4ea0e1c14ed">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаявкаНаВыпускКиЗГИСМ.ВыпущенныеКиЗ" category="TabularSection">
+						<xr:TypeId>97ac5399-b720-456b-8ff5-f6560f2ed7c1</xr:TypeId>
+						<xr:ValueId>de23af0a-810d-4d1f-b274-5f6f0289d6aa</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаявкаНаВыпускКиЗГИСМ.ВыпущенныеКиЗ" category="TabularSectionRow">
+						<xr:TypeId>a67d45b2-295c-455b-a6aa-31d4a309095c</xr:TypeId>
+						<xr:ValueId>d62aeaa6-bf48-47a7-b29a-b2f1eebc4434</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыпущенныеКиЗ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b34828d8-8050-4da1-8f78-2e7aeba24b15</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e78e9a2f-d12a-4778-854d-a70d29bc7e36">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументПоступления</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3642d003-5b9b-4c42-9673-2354306c8d95</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ДокументПоступленияМаркированныхТоваровГИСМ</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

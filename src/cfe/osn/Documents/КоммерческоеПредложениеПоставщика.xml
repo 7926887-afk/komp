@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f18cbd54-0a46-4215-8fed-9103b6402281">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КоммерческоеПредложениеПоставщика" category="Object">
+				<xr:TypeId>f4b9b206-4981-4cad-b766-b603fc6219b9</xr:TypeId>
+				<xr:ValueId>052a2b11-968c-4a8a-acc8-8c9aa2326b8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КоммерческоеПредложениеПоставщика" category="Ref">
+				<xr:TypeId>d3da1743-0626-4662-9ddc-e934d360ad99</xr:TypeId>
+				<xr:ValueId>4986576d-a1d7-4787-8b40-94196af4b646</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КоммерческоеПредложениеПоставщика" category="Selection">
+				<xr:TypeId>4661fef5-f0d4-45ed-9f40-df2d134b2a19</xr:TypeId>
+				<xr:ValueId>493e93f9-ea52-430f-bab3-2ccf8ed639a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КоммерческоеПредложениеПоставщика" category="List">
+				<xr:TypeId>092cdc0e-9cb7-4eee-9401-0aa816220a15</xr:TypeId>
+				<xr:ValueId>b4243271-2c67-4f49-8f7c-91a80cb4c857</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КоммерческоеПредложениеПоставщика" category="Manager">
+				<xr:TypeId>ed7ee05b-5205-454d-bce4-1a106d7b2434</xr:TypeId>
+				<xr:ValueId>6c684147-b0e0-4556-8112-a0ad08343bed</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КоммерческоеПредложениеПоставщика</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a5c6cef5-44fd-4e96-bf5d-e2e31bd36925</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="11370ba0-cf05-4ae3-8d40-11af3f6a5441">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7ab65f35-f3c2-441c-ad1c-b43a7ea84896</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ЗапросКоммерческихПредложенийПоставщиков</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

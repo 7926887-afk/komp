@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="3277ec31-4154-4d53-9673-aec6f103519f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспределениеРасходовБудущихПериодов" category="Object">
+				<xr:TypeId>d56a0515-4358-44fc-9096-e0edf9d57afc</xr:TypeId>
+				<xr:ValueId>071f6137-393a-4f0d-a15f-7519ff342980</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспределениеРасходовБудущихПериодов" category="Ref">
+				<xr:TypeId>8e22e5ba-6676-438e-9a82-a448c420c274</xr:TypeId>
+				<xr:ValueId>dafa7a6c-73f5-4e31-a6b9-8a0138ba1ab7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспределениеРасходовБудущихПериодов" category="Selection">
+				<xr:TypeId>b293c9be-63d1-4931-8f5c-27aa5145ed4a</xr:TypeId>
+				<xr:ValueId>49301212-d05b-4513-ad63-562a5e22b977</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспределениеРасходовБудущихПериодов" category="List">
+				<xr:TypeId>4d513698-13b4-4c8b-ab03-7aa8e62db642</xr:TypeId>
+				<xr:ValueId>b6727857-0bc3-4fb6-85e2-80150e7fbbc2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспределениеРасходовБудущихПериодов" category="Manager">
+				<xr:TypeId>1faa0295-a1ca-4524-beb7-255b8940210f</xr:TypeId>
+				<xr:ValueId>72267984-022e-4790-8f67-c579240aa3f0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспределениеРасходовБудущихПериодов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6fc9de54-3141-4852-9cb8-c1be947c406a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3a577394-cd78-4efe-95d5-f786be122c64">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2e8dd765-f5da-46ce-b308-5b6e96fea72f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="49e68aee-1e0b-4632-add6-460430f45b0e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РаспределениеРасходовБудущихПериодов.РаспределениеРасходов" category="TabularSection">
+						<xr:TypeId>7df94d44-7402-48a7-bec8-de979dcf8aed</xr:TypeId>
+						<xr:ValueId>82584b45-bdf8-4589-b23d-8b9f5b6f4c2a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РаспределениеРасходовБудущихПериодов.РаспределениеРасходов" category="TabularSectionRow">
+						<xr:TypeId>240c4846-d9d0-42cb-be34-591f58294de0</xr:TypeId>
+						<xr:ValueId>40079e4d-8a01-4902-8c28-c5460521f16d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РаспределениеРасходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>746c2b00-20d0-4017-ab1a-e55b902e8c71</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="86314b30-669a-4ecb-a833-934a45a38872">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8d64a62b-db9e-42fa-a7bc-fab3deb30b22</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

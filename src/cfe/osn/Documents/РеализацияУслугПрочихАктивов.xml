@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="ed58a9dd-70f5-46db-bce6-b1331a763601">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РеализацияУслугПрочихАктивов" category="Object">
+				<xr:TypeId>51776b4e-a2ce-4a47-8f03-cdca37b6b922</xr:TypeId>
+				<xr:ValueId>e883bf5f-537c-4a19-a8cb-f38c6b39315f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РеализацияУслугПрочихАктивов" category="Ref">
+				<xr:TypeId>c4e3e0bc-5191-4868-8e6a-144c1e8af058</xr:TypeId>
+				<xr:ValueId>08e3608f-4b3c-40d3-908c-42d5856ce99b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РеализацияУслугПрочихАктивов" category="Selection">
+				<xr:TypeId>9f375133-e896-4384-92f2-ae9bc6e0c713</xr:TypeId>
+				<xr:ValueId>dc8af979-1bb0-4ffc-bc72-5b78d01c83d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РеализацияУслугПрочихАктивов" category="List">
+				<xr:TypeId>bef59188-251a-4731-b72b-a6d81215806f</xr:TypeId>
+				<xr:ValueId>9867d452-8008-4a10-bf47-c5deae8d54b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РеализацияУслугПрочихАктивов" category="Manager">
+				<xr:TypeId>468ddf17-8eb0-44b9-b556-85748591039e</xr:TypeId>
+				<xr:ValueId>01cc4b6f-5f96-487e-8f94-8539a781c142</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РеализацияУслугПрочихАктивов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3baeaac4-09f4-47a0-88a9-8f88e0159168</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4fb15b2b-ec9a-44c1-8725-3dafe15a6b26">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a1705dc7-528c-4baa-9298-2911942ea449</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="c1959991-a93b-46ff-b553-e05bc7c6df9c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РеализацияУслугПрочихАктивов.Доходы" category="TabularSection">
+						<xr:TypeId>aee5d68b-31eb-432e-af58-e93ecb4560ff</xr:TypeId>
+						<xr:ValueId>617583be-6781-4cf8-9045-cc323f895f1f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РеализацияУслугПрочихАктивов.Доходы" category="TabularSectionRow">
+						<xr:TypeId>6e5a0329-8625-42aa-bc8a-769c09f8ef74</xr:TypeId>
+						<xr:ValueId>66156783-30ef-4929-b32d-ef2a5ed172d6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Доходы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a48ec094-4686-4644-9437-6899ba9b1a5b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="8d378311-c953-44fd-8ed7-8ae614d44f96">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаДоходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4305e0b3-dccc-4031-bfae-c3cdb022aea5</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиДоходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="7a5b4589-ca2e-4c8f-bf29-f2222a7f4f2a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РеализацияУслугПрочихАктивов.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>17b220aa-71d2-4528-9519-e667f20fbfe6</xr:TypeId>
+						<xr:ValueId>96553e29-193c-4b4b-a38e-e11f33802fa8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РеализацияУслугПрочихАктивов.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>79f3fc18-5593-4abf-bbcd-ee503356b70a</xr:TypeId>
+						<xr:ValueId>6a6b400a-b1b9-47bb-9a73-ef715b0c37b2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>191d5568-2d5d-4135-8bef-16cbf7588c25</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

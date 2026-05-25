@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="8a43d727-a5a0-45fc-91bb-f38c08cc8d3e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыИсполнителейЗаданийНаПеревозку" category="Ref">
+				<xr:TypeId>1fde27cf-80a0-4306-b645-d322e2212dd7</xr:TypeId>
+				<xr:ValueId>bc6ff18c-2b7d-4955-a18d-507a973d4632</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыИсполнителейЗаданийНаПеревозку" category="Manager">
+				<xr:TypeId>7e2bfc95-436e-42e4-adc0-411af6a3d70c</xr:TypeId>
+				<xr:ValueId>0764dbd3-3a53-47a8-8684-79e25d0cd6d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыИсполнителейЗаданийНаПеревозку" category="List">
+				<xr:TypeId>5a0b21c8-4e92-4372-8b67-1c9840728d1a</xr:TypeId>
+				<xr:ValueId>28de2a9f-eac9-4cfc-afd9-237fa4a2f861</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыИсполнителейЗаданийНаПеревозку</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fb378302-d95b-4135-bffd-6239a0199221</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="63f8e5eb-b10b-4787-89e2-fbc6223c1916">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НашаТранспортнаяСлужба</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a8905e3a-939f-4248-8255-c2c1f39d3143</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="faae7997-5090-4807-bf22-ab67294308a3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Перевозчик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d5f011ed-9752-4da4-989a-fbf936cffbff</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

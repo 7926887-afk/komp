@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="95d0d582-cb0d-4fa6-9254-6c625e43d5c9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратТоваровМеждуОрганизациями" category="Object">
+				<xr:TypeId>0b52ab66-6dac-46f7-9da2-2fffe7f008d7</xr:TypeId>
+				<xr:ValueId>0d35c56d-f193-4a09-b3db-d33c239850a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратТоваровМеждуОрганизациями" category="Ref">
+				<xr:TypeId>1709bafd-2aa6-484e-a7e7-c2bc3843b728</xr:TypeId>
+				<xr:ValueId>85ff5a3f-8c97-4068-905c-42f784e1c2fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратТоваровМеждуОрганизациями" category="Selection">
+				<xr:TypeId>cb930383-6045-42ae-b379-58ab731aa62d</xr:TypeId>
+				<xr:ValueId>42451fb7-fb52-4961-b2a4-b9b93b3b4fed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратТоваровМеждуОрганизациями" category="List">
+				<xr:TypeId>e371de54-6a0e-43df-a226-423010898f29</xr:TypeId>
+				<xr:ValueId>b9fe2eee-7f02-4263-a46c-4d64a7fa524b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратТоваровМеждуОрганизациями" category="Manager">
+				<xr:TypeId>e0c7bbed-3206-4837-8cad-e3d7c8a64d71</xr:TypeId>
+				<xr:ValueId>16aebeb3-232e-4c18-beb0-a36339e4c596</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратТоваровМеждуОрганизациями</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>18c9b21b-ba7e-4b2c-b295-1a20c74b003b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d56d758b-274c-4156-a50a-ddd7eefde396">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументПередачи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>18f88239-62aa-482b-bfd6-03be0da0a7d2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="94095fa1-3871-46b2-9348-093ee7af98d4">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратТоваровМеждуОрганизациями.Товары" category="TabularSection">
+						<xr:TypeId>f8b208b7-1fa6-4f1d-9a2f-dafeefac65f8</xr:TypeId>
+						<xr:ValueId>725b2f27-1bf4-422a-ac6d-5c84db0cede0</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратТоваровМеждуОрганизациями.Товары" category="TabularSectionRow">
+						<xr:TypeId>35d9588d-4bed-445e-838f-69e551c9a1b2</xr:TypeId>
+						<xr:ValueId>c8d0448e-17a5-47e6-86e4-7fcf4071cee8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>09be3e41-082e-462c-9f98-03370841c1eb</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="32672f5c-3144-4920-80d1-f265cb4782fc">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументПередачи</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e43603b6-dde9-4bc6-92c3-1834d059735d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ee72f4a2-3ded-4625-80fc-0c2d5d6b9d7e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>3f958868-e6f6-4a16-87d5-02a8f0263973</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="f6f154ab-3bc1-4f37-be00-a5db9b93ddcd">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратТоваровМеждуОрганизациями.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>3e3db28b-5012-478a-9b97-f0f3638285eb</xr:TypeId>
+						<xr:ValueId>687154fa-057f-42b0-b839-622789268fa4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратТоваровМеждуОрганизациями.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>f75abe0c-9b91-459c-ac85-d5e74b92a891</xr:TypeId>
+						<xr:ValueId>c8f1b091-d998-4e0b-825f-7fc0d4cce3f8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>afaadeac-cfed-4af2-8aa7-9d6614359845</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

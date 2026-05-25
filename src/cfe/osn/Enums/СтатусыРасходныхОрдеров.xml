@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="c2cc7c77-dd3e-4060-a3db-817df4635e1c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыРасходныхОрдеров" category="Ref">
+				<xr:TypeId>fd56e646-aada-40f6-b8d7-51dc98b9ae33</xr:TypeId>
+				<xr:ValueId>da394096-310e-437c-bc66-286cbf704d80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыРасходныхОрдеров" category="Manager">
+				<xr:TypeId>b72c3663-53b8-40ad-bfb7-e2e8a1d46340</xr:TypeId>
+				<xr:ValueId>cd13917c-026d-4933-8680-e4b305c3f18f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыРасходныхОрдеров" category="List">
+				<xr:TypeId>18f6860f-816f-4f78-9695-fb3e8e11cb2c</xr:TypeId>
+				<xr:ValueId>b33383fb-0ef6-48e4-9ef2-facda54a1145</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыРасходныхОрдеров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d873fb7c-bffd-4ee5-9885-25af6032a41f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f53fed12-95c3-4ddc-8da9-d7a6d18a37c8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КОтгрузке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>47a95af3-e94f-43dd-b105-b0009956fe02</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="55a4f602-aad6-4df0-ac81-8ea75e5a8e4d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Проверен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dda573e0-6c82-4ff9-9954-d2ec5dc5677c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2ce0f73b-4959-47e9-9088-6fd7caf4b2b0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отгружен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bdc2dd3b-b02c-4815-af56-2538b334fbf4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e1763ffa-dc85-489a-9790-57abcfe55cbd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КОтбору</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5394523f-1d18-4bb7-94ac-c5f9ed62888e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="451ef713-96f3-476e-b751-0403dee8c4c3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подготовлен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2fcc0b73-2f07-413e-aa8c-c99b38f0655b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1ac296a5-e30d-48ac-a367-30a6b99f9a48">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВПроцессеПроверки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>92258e4f-ec60-44a5-9ef6-60af9d22d0f4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9aac99ac-cca6-45f5-bcdb-fedc321fa6c8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КПроверке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9a7f17cc-0bed-409a-bf22-547957e4b4a3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

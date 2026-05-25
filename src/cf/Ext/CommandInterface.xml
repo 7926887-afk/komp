@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<SubsystemsVisibility>
+		<Subsystem name="Subsystem.Планирование">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.CRMИМаркетинг">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Продажи">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Закупки">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Склад">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Казначейство">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.ФинансовыйРезультатИКонтроллинг">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Администрирование">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.ОрганизацияБазовая">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.ПродажиБазовая">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.ЗакупкиБазовая">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.СкладБазовая">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.БанкИКассаБазовая">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.ОтчетыБазовая">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.НастройкиБазовая">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.АдминистрированиеСервиса">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.АдминистраторСистемы">true</xr:Value>
+				<xr:Value name="Role.ДоступРазделы">true</xr:Value>
+			</Visibility>
+		</Subsystem>
+	</SubsystemsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.Планирование</Subsystem>
+		<Subsystem>Subsystem.CRMИМаркетинг</Subsystem>
+		<Subsystem>Subsystem.Продажи</Subsystem>
+		<Subsystem>Subsystem.Закупки</Subsystem>
+		<Subsystem>Subsystem.Склад</Subsystem>
+		<Subsystem>Subsystem.Казначейство</Subsystem>
+		<Subsystem>Subsystem.ФинансовыйРезультатИКонтроллинг</Subsystem>
+		<Subsystem>Subsystem.Администрирование</Subsystem>
+		<Subsystem>Subsystem.ОрганизацияБазовая</Subsystem>
+		<Subsystem>Subsystem.ПродажиБазовая</Subsystem>
+		<Subsystem>Subsystem.ЗакупкиБазовая</Subsystem>
+		<Subsystem>Subsystem.СкладБазовая</Subsystem>
+		<Subsystem>Subsystem.БанкИКассаБазовая</Subsystem>
+		<Subsystem>Subsystem.ОтчетыБазовая</Subsystem>
+		<Subsystem>Subsystem.НастройкиБазовая</Subsystem>
+		<Subsystem>Subsystem.АдминистрированиеСервиса</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

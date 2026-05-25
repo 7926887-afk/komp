@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="15cf360e-25ff-45da-bd9e-a527b07d3e96">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаРасходованиеДенежныхСредств" category="Object">
+				<xr:TypeId>930f42a8-71c8-4b38-aa73-4146ffc0e2a6</xr:TypeId>
+				<xr:ValueId>5cd8fa97-fe8b-43e4-bde0-2b651040fd6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаРасходованиеДенежныхСредств" category="Ref">
+				<xr:TypeId>903e06c6-7947-4224-9c61-760830ba29cd</xr:TypeId>
+				<xr:ValueId>49667b26-ea99-4a24-981d-82e2bd114660</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаРасходованиеДенежныхСредств" category="Selection">
+				<xr:TypeId>f27ceb9c-9a9e-4ed7-bfba-ed4ff5b8c960</xr:TypeId>
+				<xr:ValueId>519c5136-1796-4a82-8991-49d03f483ab4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаРасходованиеДенежныхСредств" category="List">
+				<xr:TypeId>b6dda42d-e82b-457c-9934-c999c0c6439c</xr:TypeId>
+				<xr:ValueId>abee3095-302f-4316-8240-c750d73917e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаРасходованиеДенежныхСредств" category="Manager">
+				<xr:TypeId>4af67f40-5de1-42bb-91a5-029edb7072c5</xr:TypeId>
+				<xr:ValueId>d61f2d10-a770-4237-85fd-7b7023774acc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаНаРасходованиеДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c97305dd-0349-4b67-ba20-a37c9742ec79</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fc7037e6-3de7-41fd-8311-b839e6680b87">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b3ae4863-066d-4a33-a16f-4784c4f0c0be</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="8832ff2b-5938-4bf8-829b-a16d497d929a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаявкаНаРасходованиеДенежныхСредств.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>f9d5a709-c518-4690-b648-fccb505175a1</xr:TypeId>
+						<xr:ValueId>c7aabd54-ad5b-412f-b86b-9f1b897bde80</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаявкаНаРасходованиеДенежныхСредств.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>2b545954-dcab-4046-88ba-d546c06fefa5</xr:TypeId>
+						<xr:ValueId>ea0fd9df-05a9-4ad1-9d79-cac7e3217db5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cbfe7c8f-54c1-43a8-ad59-1e976148c661</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6588a389-b018-40f1-ba5c-c0558954512f">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Ведомость</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4184318b-77c1-444a-a5bb-92436bb697d0</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fcaf29fa-5228-4230-bf5e-c2cdb8390eb5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6e894b08-f37c-4bda-9362-6cc679053505</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="35c31f1f-8a3b-4452-9b0a-531413a8e50a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДоговорЗаймаСотруднику</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>08846a81-f592-44b1-b735-efa7b62be0de</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

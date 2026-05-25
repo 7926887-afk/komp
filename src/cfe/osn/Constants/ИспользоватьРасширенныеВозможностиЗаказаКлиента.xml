@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="6e124218-9a3f-4e97-9ca5-6bccd1d73b97">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьРасширенныеВозможностиЗаказаКлиента" category="Manager">
+				<xr:TypeId>acbd93c1-f909-4a15-bcbd-202690bb2d1c</xr:TypeId>
+				<xr:ValueId>8bcd023a-8442-43ce-abcf-8808fb01a922</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьРасширенныеВозможностиЗаказаКлиента" category="ValueManager">
+				<xr:TypeId>59210ba5-9381-47d8-8e7e-c26f5e53a922</xr:TypeId>
+				<xr:ValueId>50466682-034b-45fc-bd4c-e789fe41073c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьРасширенныеВозможностиЗаказаКлиента" category="ValueKey">
+				<xr:TypeId>601dbb0f-fd95-45c6-8fa6-5eb2ce2fd510</xr:TypeId>
+				<xr:ValueId>dff7a491-a4a2-4ec9-a012-4d442783edf1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИспользоватьРасширенныеВозможностиЗаказаКлиента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>48930c69-3df4-4731-b9c9-67d6bae1c4c8</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

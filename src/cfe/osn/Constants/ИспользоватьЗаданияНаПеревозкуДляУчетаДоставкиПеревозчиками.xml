@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="9945a2c1-6742-4dcd-9a93-77df15364b53">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчиками" category="Manager">
+				<xr:TypeId>2e961757-461d-4abb-a910-5f0fada2e91a</xr:TypeId>
+				<xr:ValueId>378c83e1-9442-4a7e-a7dd-3c8b98830940</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчиками" category="ValueManager">
+				<xr:TypeId>1c49962c-8846-4691-8d85-db17d16c21ad</xr:TypeId>
+				<xr:ValueId>d8aeaaac-fa1e-479d-9f6a-95e6493886c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчиками" category="ValueKey">
+				<xr:TypeId>d9470708-bcbf-4ee4-b963-38b0399338cc</xr:TypeId>
+				<xr:ValueId>b9f788c7-42a0-405a-b93c-15dd3ce7a00e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчиками</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1419a9ad-bdae-42d8-9e44-b3f56c9f47f8</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>
