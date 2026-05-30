@@ -3714,6 +3714,8 @@
 			<Role>ЧтениеШтрихкодовУпаковокТоваров</Role>
 			<Role>ЧтениеЭлектронныхДокументов</Role>
 			<Role>ШифрованиеИРасшифровкаДанных</Role>
+			<Role>Кт_ЧтениеЗаказовНаВнутреннееПотребление</Role>
+			<Role>Кт_ДобавлениеИзменениеЗаказовНаВнутреннееПотребление</Role>
 			<CommonTemplate>fresh</CommonTemplate>
 			<CommonTemplate>ВидыДокументовУдостоверяющихЛичность</CommonTemplate>
 			<CommonTemplate>ДанныеПечатиОбщиеРеквизиты</CommonTemplate>
@@ -6670,6 +6672,7 @@
 			<CommonModule>ЭтапыОплатыКлиентСервер</CommonModule>
 			<CommonModule>ЭтапыОплатыСервер</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
+			<CommonModule>кт_Доработки</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -7641,6 +7644,7 @@
 			<ScheduledJob>ФормированиеСообщенийПоРассылкамКлиентам</ScheduledJob>
 			<ScheduledJob>ЧтениеНовостейСлужбыПоддержки</ScheduledJob>
 			<ScheduledJob>ЭкспортОценкиПроизводительности</ScheduledJob>
+			<ScheduledJob>кт_ЗакрытиеНеОплаченныхЗаказов</ScheduledJob>
 			<SettingsStorage>БуферыОбменаНовостей</SettingsStorage>
 			<SettingsStorage>НастройкиНовостей</SettingsStorage>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
