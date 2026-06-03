@@ -1065,6 +1065,7 @@
 																	<v8:content>Договор</v8:content>
 																</v8:item>
 															</Title>
+															<AutoMarkIncomplete>false</AutoMarkIncomplete>
 															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 															<ContextMenu name="Договор1КонтекстноеМеню" id="2518"/>
 															<ExtendedTooltip name="Договор1РасширеннаяПодсказка" id="2519"/>
