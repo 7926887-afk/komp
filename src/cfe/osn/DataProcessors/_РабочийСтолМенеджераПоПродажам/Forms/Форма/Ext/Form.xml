@@ -105,6 +105,17 @@
 						<CommandName>Form.Command.СчетОферта</CommandName>
 						<ExtendedTooltip name="ФормаСчетОфертаРасширеннаяПодсказка" id="1188"/>
 					</Button>
+					<Button name="ФормаСчетДоговор" id="1200">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СчетДоговор</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Счет-Договор</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаСчетДоговорРасширеннаяПодсказка" id="1201"/>
+					</Button>
 					<Button name="ФормаРеализация" id="984">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Реализация</CommandName>
@@ -6715,6 +6726,22 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СчетОферта</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СчетДоговор" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Счет-Договор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Счет-Договор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СчетДоговор</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОтчетДоговорыБезОригиналов" id="20">
