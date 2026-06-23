@@ -196,6 +196,7 @@
 			<CommonModule>УправлениеДоступомСлужебный</CommonModule>
 			<CommonModule>УправлениеПечатью</CommonModule>
 			<CommonModule>ПрефиксацияОбъектовСобытия</CommonModule>
+			<CommonModule>РеализацияТоваровУслугЛокализация</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиентПереопределяемый</CommonModule>
 			<CommonModule>СчетФактураВыданныйАвансЛокализация</CommonModule>
 			<CommonModule>ЭлектронноеАктированиеЕИСУТ</CommonModule>
